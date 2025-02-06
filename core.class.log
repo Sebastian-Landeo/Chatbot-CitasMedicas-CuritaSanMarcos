@@ -1,0 +1,160 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51920232963@s.whatsapp.net',
+    fromMe: false,
+    id: '6639D22F90AC2BE1403F11C2B9433A6E',
+    participant: undefined
+  },
+  messageTimestamp: 1738735947,
+  pushName: 'Rosa Cuentas',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Hola',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '51920232963'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5b4846e9-bc74-45f4-ac16-f9b66be05955',
+  keyword: 'key_a249b3af-b1e3-42a7-bd8a-6407a27ae3f7',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7214439a0296eb7f7aca0245f56c61ed'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_efdd20ee-2c9b-46b5-8914-440774ce8065',
+  keyword: 'ans_5b4846e9-bc74-45f4-ac16-f9b66be05955',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a81db1ec1ab0567afc89a4eb53418c34'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51920772807@s.whatsapp.net',
+    fromMe: false,
+    id: '403E61A45BA04CA59A82EC2AFD9F63FF',
+    participant: undefined
+  },
+  messageTimestamp: 1738736050,
+  pushName: 'Cristhian LC',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Hola',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '51920772807'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5b4846e9-bc74-45f4-ac16-f9b66be05955',
+  keyword: 'key_a249b3af-b1e3-42a7-bd8a-6407a27ae3f7',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7214439a0296eb7f7aca0245f56c61ed'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_efdd20ee-2c9b-46b5-8914-440774ce8065',
+  keyword: 'ans_5b4846e9-bc74-45f4-ac16-f9b66be05955',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a81db1ec1ab0567afc89a4eb53418c34'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51939098960@s.whatsapp.net',
+    fromMe: false,
+    id: '3F78F9B8E68B0989D468',
+    participant: undefined
+  },
+  messageTimestamp: 1738736098,
+  pushName: 'Anthony Bedia',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: '?', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '?',
+  from: '51939098960'
+}
