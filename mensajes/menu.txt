@@ -5,6 +5,3 @@ Opcion 2 - Reservar mesa
 Opcion 3 - Hacer consultas
 
 Opcion 0 - Salir
-
-
-
