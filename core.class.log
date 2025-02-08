@@ -1,0 +1,2594 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '992F7B522C4FE0DBAD9D99FDD215A63F',
+    participant: undefined
+  },
+  messageTimestamp: 1738974909,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'Xd',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Xd',
+  from: '51940628926'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  keyword: 'key_922bdc20-d096-4206-909a-2b0f89844007',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7036e6eab19c5b9ed7cfe40ee205539a'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  keyword: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: 'C:\\Users\\Sebastian\\Desktop\\Chatbot Definitivo\\base-baileys-memory\\Imagenes\\clinica.png',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '78b202bed6ea22cb4c4cb56df7d4ad7b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0278df5f-0d65-49a1-8406-6c98afe00839',
+  keyword: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  answer: 'Escriba su correo de paciente para iniciar',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '143521d1c1f29b064305d837444ac08c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'B52C51041EB92959494E09139FD2C82C',
+    participant: undefined
+  },
+  messageTimestamp: 1738974913,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'new Promise(() => {}); // Promesa pendiente indefinidamente',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'new Promise(() => {}); // Promesa pendiente indefinidamente',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '9345C5B1C351C6EADB419E340A2933BA',
+    participant: undefined
+  },
+  messageTimestamp: 1738974920,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'new Promise(() => {}); //',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'new Promise(() => {}); //',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '9CA0DFC20F3813AB9E91B07614BA20D2',
+    participant: undefined
+  },
+  messageTimestamp: 1738974923,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: '//',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '//',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'C25274C767B68371038998CBB866508E',
+    participant: undefined
+  },
+  messageTimestamp: 1738974939,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'async function infiniteLoop() {\n' +
+      '  while (true) {\n' +
+      '    await chatbot.respond("¿Me puedes escuchar?");\n' +
+      '  }\n' +
+      '}\n' +
+      '\n' +
+      'infiniteLoop();',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'async function infiniteLoop() {\n' +
+    '  while (true) {\n' +
+    '    await chatbot.respond("¿Me puedes escuchar?");\n' +
+    '  }\n' +
+    '}\n' +
+    '\n' +
+    'infiniteLoop();',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '084F02A0330A548989DE2709D042A46D',
+    participant: undefined
+  },
+  messageTimestamp: 1738974948,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'const userInput = "a".repeat(1000000); // Cadena muy larga\n' +
+      'chatbot.respond(userInput);',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'const userInput = "a".repeat(1000000); // Cadena muy larga\n' +
+    'chatbot.respond(userInput);',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '1B9C8E01329C322A611A00679DA667EC',
+    participant: undefined
+  },
+  messageTimestamp: 1738974972,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'for (let i = 0; i < 10000; i++) {\n' +
+      '  chatbot.respond("Prueba de carga");\n' +
+      '}',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'for (let i = 0; i < 10000; i++) {\n  chatbot.respond("Prueba de carga");\n}',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51932769482@s.whatsapp.net',
+    fromMe: false,
+    id: '845C35B5E784C8920F8FA5F6FAC3A3A8',
+    participant: undefined
+  },
+  messageTimestamp: 1738974994,
+  pushName: 'Joaquín HidalgoCock',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'No lo hiciste con hilos?',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'No lo hiciste con hilos?',
+  from: '51932769482'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  keyword: 'key_922bdc20-d096-4206-909a-2b0f89844007',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7036e6eab19c5b9ed7cfe40ee205539a'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  keyword: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: 'C:\\Users\\Sebastian\\Desktop\\Chatbot Definitivo\\base-baileys-memory\\Imagenes\\clinica.png',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '78b202bed6ea22cb4c4cb56df7d4ad7b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0278df5f-0d65-49a1-8406-6c98afe00839',
+  keyword: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  answer: 'Escriba su correo de paciente para iniciar',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '143521d1c1f29b064305d837444ac08c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '08859CEE0A8C415EA4338417F9F20C73',
+    participant: undefined
+  },
+  messageTimestamp: 1738975005,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'const userInput = new Array(10**6).fill("data");\n' +
+      'chatbot.respond(userInput);',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'const userInput = new Array(10**6).fill("data");\n' +
+    'chatbot.respond(userInput);',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'B85E30A182B9E65C6D283AE21A1E906F',
+    participant: undefined
+  },
+  messageTimestamp: 1738975017,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'const userInput = "&& rm -rf /"; // No ejecutar en un entorno real\n' +
+      'chatbot.respond(userInput);',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'const userInput = "&& rm -rf /"; // No ejecutar en un entorno real\n' +
+    'chatbot.respond(userInput);',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '120CBDD7B307A34FE5D5BC5147300833',
+    participant: undefined
+  },
+  messageTimestamp: 1738975029,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: `const userInput = '{"key": "value", "key2":}'; // JSON inválido\n` +
+      'chatbot.respond(userInput);',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: `const userInput = '{"key": "value", "key2":}'; // JSON inválido\n` +
+    'chatbot.respond(userInput);',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51932769482@s.whatsapp.net',
+    fromMe: false,
+    id: '8A4EBFEAAAACDBAF1D97A89B7102C920',
+    participant: undefined
+  },
+  messageTimestamp: 1738975036,
+  pushName: 'Joaquín HidalgoCock',
+  broadcast: false,
+  message: Message {
+    conversation: 'select * from (select * from table)',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'select * from (select * from table)',
+  from: '51932769482'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '17DC83CEEC38B77B55C7D785D12A5046',
+    participant: undefined
+  },
+  messageTimestamp: 1738975050,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: '.',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '.',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51932769482@s.whatsapp.net',
+    fromMe: false,
+    id: '0959889CCC6BA05355318856F067EC40',
+    participant: undefined
+  },
+  messageTimestamp: 1738975056,
+  pushName: 'Joaquín HidalgoCock',
+  broadcast: false,
+  message: Message {
+    conversation: 'select * from (select * from table)@gmail',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'select * from (select * from table)@gmail',
+  from: '51932769482'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '879C6D1E084929EDFB66CEB4A709B3DC',
+    participant: undefined
+  },
+  messageTimestamp: 1738975061,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: '🤯𓂀𝄞𝔘𝕟𝕚𝕔𝕠𝕕𝕖',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '🤯𓂀𝄞𝔘𝕟𝕚𝕔𝕠𝕕𝕖',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'C30D0E077003C1C94E34CB5D89D952A1',
+    participant: undefined
+  },
+  messageTimestamp: 1738975064,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'const userInput = "🤯𓂀𝄞𝔘𝕟𝕚𝕔𝕠𝕕𝕖";\nchatbot.respond(userInput);',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'const userInput = "🤯𓂀𝄞𝔘𝕟𝕚𝕔𝕠𝕕𝕖";\nchatbot.respond(userInput);',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51932769482@s.whatsapp.net',
+    fromMe: false,
+    id: 'F50AC9A3FDA055B9B0CDD32ED855EFF5',
+    participant: undefined
+  },
+  messageTimestamp: 1738975071,
+  pushName: 'Joaquín HidalgoCock',
+  broadcast: false,
+  message: Message {
+    conversation: '"select * from (select * from table)"@gmail',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '"select * from (select * from table)"@gmail',
+  from: '51932769482'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '037BB57374C9742B866F94EDD1F47A67',
+    participant: undefined
+  },
+  messageTimestamp: 1738975072,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'async function floodChatbot() {\n' +
+      '  for (let i = 0; i < 1000000; i++) {\n' +
+      '    chatbot.respond("Spam spam spam");\n' +
+      '  }\n' +
+      '}\n' +
+      'floodChatbot();',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'async function floodChatbot() {\n' +
+    '  for (let i = 0; i < 1000000; i++) {\n' +
+    '    chatbot.respond("Spam spam spam");\n' +
+    '  }\n' +
+    '}\n' +
+    'floodChatbot();',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '47853880316893CDE357BF476C6C572C',
+    participant: undefined
+  },
+  messageTimestamp: 1738975078,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: `const userInput = "' OR '1'='1'; --";\nchatbot.respond(userInput);`,
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: `const userInput = "' OR '1'='1'; --";\nchatbot.respond(userInput);`,
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'D112BD230EF2E9BB835264E63E1286C6',
+    participant: undefined
+  },
+  messageTimestamp: 1738975116,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: `" OR '1'='1'; --";`,
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: `" OR '1'='1'; --";`,
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '2AF70E362709FC7E93F3C0A75849CB28',
+    participant: undefined
+  },
+  messageTimestamp: 1738975128,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'Object.prototype.hack = () => console.log("Hackeado");\n' +
+      'chatbot.respond("Prueba de corrupción");',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Object.prototype.hack = () => console.log("Hackeado");\n' +
+    'chatbot.respond("Prueba de corrupción");',
+  from: '51940628926'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_60580bd4-3e86-476b-a680-71d61aba4cb8',
+  keyword: 'key_c8f753cf-c47b-453f-ad21-386e2286f450',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '309745213fdcd090667cdfc15a5e749f'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0c72ba75-3b15-43c7-8136-4a85d6ce384e',
+  keyword: 'ans_60580bd4-3e86-476b-a680-71d61aba4cb8',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd3387298f0bae32dcf849d64d91ba215'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'A009790ABD0374E89A75DBF19C4B31C5',
+    participant: undefined
+  },
+  messageTimestamp: 1738975138,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'let lastResponse = chatbot.respond("Hola");\n' +
+      'while (true) {\n' +
+      '  lastResponse = chatbot.respond(lastResponse);\n' +
+      '}',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'let lastResponse = chatbot.respond("Hola");\n' +
+    'while (true) {\n' +
+    '  lastResponse = chatbot.respond(lastResponse);\n' +
+    '}',
+  from: '51940628926'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_60580bd4-3e86-476b-a680-71d61aba4cb8',
+  keyword: 'key_c8f753cf-c47b-453f-ad21-386e2286f450',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '309745213fdcd090667cdfc15a5e749f'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0c72ba75-3b15-43c7-8136-4a85d6ce384e',
+  keyword: 'ans_60580bd4-3e86-476b-a680-71d61aba4cb8',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd3387298f0bae32dcf849d64d91ba215'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '42A16C245462480443A55A664AF39701',
+    participant: undefined
+  },
+  messageTimestamp: 1738975147,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: `const file = new File(["<script>alert('XSS')</script>"], "exploit.html", { type: "text/html" });\n` +
+      'chatbot.upload(file);',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: `const file = new File(["<script>alert('XSS')</script>"], "exploit.html", { type: "text/html" });\n` +
+    'chatbot.upload(file);',
+  from: '51940628926'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  keyword: 'key_922bdc20-d096-4206-909a-2b0f89844007',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7036e6eab19c5b9ed7cfe40ee205539a'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  keyword: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: 'C:\\Users\\Sebastian\\Desktop\\Chatbot Definitivo\\base-baileys-memory\\Imagenes\\clinica.png',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '78b202bed6ea22cb4c4cb56df7d4ad7b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0278df5f-0d65-49a1-8406-6c98afe00839',
+  keyword: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  answer: 'Escriba su correo de paciente para iniciar',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '143521d1c1f29b064305d837444ac08c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'B5B2F4DDE9E8AA84CC583DF144A7620D',
+    participant: undefined
+  },
+  messageTimestamp: 1738975151,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: `const file = new File(["<script>alert('XSS')</script>"], "exploit.html", { type: "text/html" });\n` +
+      'chatbot.upload(file);',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: `const file = new File(["<script>alert('XSS')</script>"], "exploit.html", { type: "text/html" });\n` +
+    'chatbot.upload(file);',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '0827C9A2919F2D29B3889F4F1AD982A6',
+    participant: undefined
+  },
+  messageTimestamp: 1738975154,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: `const file = new File(["<script>alert('XSS')</script>"], "exploit.html", { type: "text/html" });\n` +
+      'chatbot.upload(file);',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: `const file = new File(["<script>alert('XSS')</script>"], "exploit.html", { type: "text/html" });\n` +
+    'chatbot.upload(file);',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '83632866D195B58E13A408209AC9756D',
+    participant: undefined
+  },
+  messageTimestamp: 1738975162,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: `const file = new File(["<script>alert('XSS')</script>"], "exploit.html", { type: "text/html" });\n` +
+      'chatbot.upload(file);',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: `const file = new File(["<script>alert('XSS')</script>"], "exploit.html", { type: "text/html" });\n` +
+    'chatbot.upload(file);',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'DCDC851040E1CE831790C735DC601A24',
+    participant: undefined
+  },
+  messageTimestamp: 1738975208,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'const users = Array(10000).fill("Usuario");\n' +
+      'users.forEach((user, index) => {\n' +
+      '  chatbot.respond(`Mensaje ${index} desde ${user}`);\n' +
+      '});',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'const users = Array(10000).fill("Usuario");\n' +
+    'users.forEach((user, index) => {\n' +
+    '  chatbot.respond(`Mensaje ${index} desde ${user}`);\n' +
+    '});',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '429156CFC4D8F716A70B5F884707A611',
+    participant: undefined
+  },
+  messageTimestamp: 1738975217,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'const recursiveData = {};\n' +
+      'recursiveData.self = recursiveData;\n' +
+      'chatbot.respond(JSON.stringify(recursiveData));',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'const recursiveData = {};\n' +
+    'recursiveData.self = recursiveData;\n' +
+    'chatbot.respond(JSON.stringify(recursiveData));',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'F6B6FCB5868F8BC3B44558FF89B68D35',
+    participant: undefined
+  },
+  messageTimestamp: 1738975224,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'const userInput = "👩🏽‍🚀👨🏼‍🔬🏴‍☠️👩‍👩‍👦‍👦";  \n' +
+      'chatbot.respond(userInput);',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'const userInput = "👩🏽‍🚀👨🏼‍🔬🏴‍☠️👩‍👩‍👦‍👦";  \n' +
+    'chatbot.respond(userInput);',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51932769482@s.whatsapp.net',
+    fromMe: false,
+    id: '2605D09D50383CEC60BFDAE9B53EB0ED',
+    participant: undefined
+  },
+  messageTimestamp: 1738975277,
+  pushName: 'Joaquín HidalgoCock',
+  broadcast: false,
+  message: Message {
+    conversation: "test@gmail.com' or '1' ='1' --",
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: "test@gmail.com' or '1' ='1' --",
+  from: '51932769482'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'E2A667A71E530D5D93A2E053F2F162CE',
+    participant: undefined
+  },
+  messageTimestamp: 1738975282,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'const file = new File(["%PDF-1.4\\n%"], "fake.pdf", { type: "application/pdf" });\n' +
+      'chatbot.upload(file);',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'const file = new File(["%PDF-1.4\\n%"], "fake.pdf", { type: "application/pdf" });\n' +
+    'chatbot.upload(file);',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '7993C7DE9B4A312647D3CC1D5BB25471',
+    participant: undefined
+  },
+  messageTimestamp: 1738975289,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'const emailHeader = "Subject: 🚀🔥💀🔞";\nchatbot.respond(emailHeader);',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'const emailHeader = "Subject: 🚀🔥💀🔞";\nchatbot.respond(emailHeader);',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '81DC8DFA856E30063BEC2F69F720BCEF',
+    participant: undefined
+  },
+  messageTimestamp: 1738975298,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'Content-Type: multipart/mixed; boundary=incorrectBoundary\n' +
+      '--incorrectBoundary\n' +
+      'Content-Type: text/plain\n' +
+      '\n' +
+      'Hola, ¿puedes leer esto?\n' +
+      '--incorrectBoundary--',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Content-Type: multipart/mixed; boundary=incorrectBoundary\n' +
+    '--incorrectBoundary\n' +
+    'Content-Type: text/plain\n' +
+    '\n' +
+    'Hola, ¿puedes leer esto?\n' +
+    '--incorrectBoundary--',
+  from: '51940628926'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_60580bd4-3e86-476b-a680-71d61aba4cb8',
+  keyword: 'key_c8f753cf-c47b-453f-ad21-386e2286f450',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '309745213fdcd090667cdfc15a5e749f'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0c72ba75-3b15-43c7-8136-4a85d6ce384e',
+  keyword: 'ans_60580bd4-3e86-476b-a680-71d61aba4cb8',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd3387298f0bae32dcf849d64d91ba215'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '33BBDCF879E5E99A9CE6A13BCA564525',
+    participant: undefined
+  },
+  messageTimestamp: 1738975312,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola, ¿puedes leer esto?\n--incorrectBoundary--',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola, ¿puedes leer esto?\n--incorrectBoundary--',
+  from: '51940628926'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_60580bd4-3e86-476b-a680-71d61aba4cb8',
+  keyword: 'key_c8f753cf-c47b-453f-ad21-386e2286f450',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '309745213fdcd090667cdfc15a5e749f'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0c72ba75-3b15-43c7-8136-4a85d6ce384e',
+  keyword: 'ans_60580bd4-3e86-476b-a680-71d61aba4cb8',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd3387298f0bae32dcf849d64d91ba215'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '235908A6A4D4B3ABB0C0B68DAC59FA89',
+    participant: undefined
+  },
+  messageTimestamp: 1738975315,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'Content-Type: multipart/mixed; boundary=incorrectBoundary\n' +
+      '--incorrectBoundary\n' +
+      'Content-Type: text/plain\n' +
+      '\n' +
+      'Hola, ¿puedes leer esto?\n' +
+      '--incorrectBoundary--',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Content-Type: multipart/mixed; boundary=incorrectBoundary\n' +
+    '--incorrectBoundary\n' +
+    'Content-Type: text/plain\n' +
+    '\n' +
+    'Hola, ¿puedes leer esto?\n' +
+    '--incorrectBoundary--',
+  from: '51940628926'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_60580bd4-3e86-476b-a680-71d61aba4cb8',
+  keyword: 'key_c8f753cf-c47b-453f-ad21-386e2286f450',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '309745213fdcd090667cdfc15a5e749f'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0c72ba75-3b15-43c7-8136-4a85d6ce384e',
+  keyword: 'ans_60580bd4-3e86-476b-a680-71d61aba4cb8',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd3387298f0bae32dcf849d64d91ba215'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51932769482@s.whatsapp.net',
+    fromMe: false,
+    id: '45C57D0B17FCED65A51B9039E8A93DE7',
+    participant: undefined
+  },
+  messageTimestamp: 1738975321,
+  pushName: 'Joaquín HidalgoCock',
+  broadcast: false,
+  message: Message {
+    conversation: "Test@gmail.com' --",
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: "Test@gmail.com' --",
+  from: '51932769482'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51932769482@s.whatsapp.net',
+    fromMe: false,
+    id: 'F3EB2AFAA2D0683976C3C6A405CC57A7',
+    participant: undefined
+  },
+  messageTimestamp: 1738975338,
+  pushName: 'Joaquín HidalgoCock',
+  broadcast: false,
+  message: Message {
+    conversation: "'Test@gmail.com' --",
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: "'Test@gmail.com' --",
+  from: '51932769482'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'E188BF6683EAEEC8A9B43CAB95ED866A',
+    participant: undefined
+  },
+  messageTimestamp: 1738975339,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'Content-Type: multipart/mixed; boundary=incorrectBoundary\n' +
+      '--incorrectBoundary\n' +
+      'Content-Type: text/plain\n' +
+      '\n' +
+      'Hola, ¿puedes leer esto?\n' +
+      '--incorrectBoundary--',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Content-Type: multipart/mixed; boundary=incorrectBoundary\n' +
+    '--incorrectBoundary\n' +
+    'Content-Type: text/plain\n' +
+    '\n' +
+    'Hola, ¿puedes leer esto?\n' +
+    '--incorrectBoundary--',
+  from: '51940628926'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_60580bd4-3e86-476b-a680-71d61aba4cb8',
+  keyword: 'key_c8f753cf-c47b-453f-ad21-386e2286f450',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '309745213fdcd090667cdfc15a5e749f'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0c72ba75-3b15-43c7-8136-4a85d6ce384e',
+  keyword: 'ans_60580bd4-3e86-476b-a680-71d61aba4cb8',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd3387298f0bae32dcf849d64d91ba215'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '14F8733F8795207661C3F459F689EB4B',
+    participant: undefined
+  },
+  messageTimestamp: 1738975348,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'const file = new File(["%PDF-1.4\\n%"], "fake.pdf", { type: "application/pdf" });\n' +
+      'chatbot.upload(file);',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'const file = new File(["%PDF-1.4\\n%"], "fake.pdf", { type: "application/pdf" });\n' +
+    'chatbot.upload(file);',
+  from: '51940628926'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  keyword: 'key_922bdc20-d096-4206-909a-2b0f89844007',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7036e6eab19c5b9ed7cfe40ee205539a'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  keyword: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: 'C:\\Users\\Sebastian\\Desktop\\Chatbot Definitivo\\base-baileys-memory\\Imagenes\\clinica.png',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '78b202bed6ea22cb4c4cb56df7d4ad7b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0278df5f-0d65-49a1-8406-6c98afe00839',
+  keyword: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  answer: 'Escriba su correo de paciente para iniciar',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '143521d1c1f29b064305d837444ac08c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'FDDB2A2CF2BEFD02F05C9FECBB57DA53',
+    participant: undefined
+  },
+  messageTimestamp: 1738975359,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'const userInput = "Haz clic aquí: http://bit.ly/malware";\n' +
+      'chatbot.respond(userInput);',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'const userInput = "Haz clic aquí: http://bit.ly/malware";\n' +
+    'chatbot.respond(userInput);',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51932769482@s.whatsapp.net',
+    fromMe: false,
+    id: 'EBD7A2C7926A1A48CF073753C347DC89',
+    participant: undefined
+  },
+  messageTimestamp: 1738975400,
+  pushName: 'Joaquín HidalgoCock',
+  broadcast: false,
+  message: Message {
+    conversation: 'Test@gmail.com OR 1=1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Test@gmail.com OR 1=1',
+  from: '51932769482'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '44ECEF67EAD8580E31CB04C5111AA386',
+    participant: undefined
+  },
+  messageTimestamp: 1738975405,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: '<html>\n' +
+      '  <body>\n' +
+      '    <h1>Hola Chatbot</h1>\n' +
+      "    <script>alert('Ejecutando código en el chatbot');</script>\n" +
+      '  </body>\n' +
+      '</html>',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '<html>\n' +
+    '  <body>\n' +
+    '    <h1>Hola Chatbot</h1>\n' +
+    "    <script>alert('Ejecutando código en el chatbot');</script>\n" +
+    '  </body>\n' +
+    '</html>',
+  from: '51940628926'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_60580bd4-3e86-476b-a680-71d61aba4cb8',
+  keyword: 'key_c8f753cf-c47b-453f-ad21-386e2286f450',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '309745213fdcd090667cdfc15a5e749f'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0c72ba75-3b15-43c7-8136-4a85d6ce384e',
+  keyword: 'ans_60580bd4-3e86-476b-a680-71d61aba4cb8',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd3387298f0bae32dcf849d64d91ba215'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51932769482@s.whatsapp.net',
+    fromMe: false,
+    id: '33AAD5B8845F9AB6B04C358E9982D21A',
+    participant: undefined
+  },
+  messageTimestamp: 1738975406,
+  pushName: 'Joaquín HidalgoCock',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Ta bien hecho v:',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Ta bien hecho v:',
+  from: '51932769482'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '5391FCB42056798DF08F01C96520410B',
+    participant: undefined
+  },
+  messageTimestamp: 1738975415,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'const bigFile = new File([new ArrayBuffer(10000000)], "bigfile.zip", { type: "application/zip" });\n' +
+      'chatbot.upload(bigFile);',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'const bigFile = new File([new ArrayBuffer(10000000)], "bigfile.zip", { type: "application/zip" });\n' +
+    'chatbot.upload(bigFile);',
+  from: '51940628926'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  keyword: 'key_922bdc20-d096-4206-909a-2b0f89844007',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7036e6eab19c5b9ed7cfe40ee205539a'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  keyword: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: 'C:\\Users\\Sebastian\\Desktop\\Chatbot Definitivo\\base-baileys-memory\\Imagenes\\clinica.png',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '78b202bed6ea22cb4c4cb56df7d4ad7b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0278df5f-0d65-49a1-8406-6c98afe00839',
+  keyword: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  answer: 'Escriba su correo de paciente para iniciar',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '143521d1c1f29b064305d837444ac08c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '060776C8BCEC4DA6F163F93F2B596D95',
+    participant: undefined
+  },
+  messageTimestamp: 1738975425,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'Content-Type: multipart/mixed; boundary="boundary123"\n' +
+      '\n' +
+      '--boundary123\n' +
+      'Content-Type: text/plain\n' +
+      '\n' +
+      'Hola chatbot\n' +
+      '\n' +
+      '--boundary123\n' +
+      'Content-Type: application/json\n' +
+      '\n' +
+      '{"mensaje": "Esto debería ser JSON pero está dentro de un email"}\n' +
+      '--boundary123--',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Content-Type: multipart/mixed; boundary="boundary123"\n' +
+    '\n' +
+    '--boundary123\n' +
+    'Content-Type: text/plain\n' +
+    '\n' +
+    'Hola chatbot\n' +
+    '\n' +
+    '--boundary123\n' +
+    'Content-Type: application/json\n' +
+    '\n' +
+    '{"mensaje": "Esto debería ser JSON pero está dentro de un email"}\n' +
+    '--boundary123--',
+  from: '51940628926'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_60580bd4-3e86-476b-a680-71d61aba4cb8',
+  keyword: 'key_c8f753cf-c47b-453f-ad21-386e2286f450',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '309745213fdcd090667cdfc15a5e749f'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0c72ba75-3b15-43c7-8136-4a85d6ce384e',
+  keyword: 'ans_60580bd4-3e86-476b-a680-71d61aba4cb8',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd3387298f0bae32dcf849d64d91ba215'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51932769482@s.whatsapp.net',
+    fromMe: false,
+    id: '4937009B0AE9AFF0581EBB71F11EF1F5',
+    participant: undefined
+  },
+  messageTimestamp: 1738975438,
+  pushName: 'Joaquín HidalgoCock',
+  broadcast: false,
+  message: Message {
+    conversation: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasaaaaaaaaaaaaaa@gmail.com',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasaaaaaaaaaaaaaa@gmail.com',
+  from: '51932769482'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '9847E626274FD5A044C4AF7DC37D7C2E',
+    participant: undefined
+  },
+  messageTimestamp: 1738975441,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'Subject: Prueba de inyección\n' +
+      'From: usuario@ejemplo.com\n' +
+      'To: chatbot@empresa.com\n' +
+      'CC: admin@empresa.com\n' +
+      'X-Exploit: "Hacker"',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Subject: Prueba de inyección\n' +
+    'From: usuario@ejemplo.com\n' +
+    'To: chatbot@empresa.com\n' +
+    'CC: admin@empresa.com\n' +
+    'X-Exploit: "Hacker"',
+  from: '51940628926'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  keyword: 'key_922bdc20-d096-4206-909a-2b0f89844007',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7036e6eab19c5b9ed7cfe40ee205539a'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  keyword: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: 'C:\\Users\\Sebastian\\Desktop\\Chatbot Definitivo\\base-baileys-memory\\Imagenes\\clinica.png',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '78b202bed6ea22cb4c4cb56df7d4ad7b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0278df5f-0d65-49a1-8406-6c98afe00839',
+  keyword: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  answer: 'Escriba su correo de paciente para iniciar',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '143521d1c1f29b064305d837444ac08c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51932769482@s.whatsapp.net',
+    fromMe: false,
+    id: 'D75FC15A5278B2DD0FFE5DE45655FCE0',
+    participant: undefined
+  },
+  messageTimestamp: 1738975442,
+  pushName: 'Joaquín HidalgoCock',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Xddd',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Xddd',
+  from: '51932769482'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  keyword: 'key_922bdc20-d096-4206-909a-2b0f89844007',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7036e6eab19c5b9ed7cfe40ee205539a'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  keyword: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: 'C:\\Users\\Sebastian\\Desktop\\Chatbot Definitivo\\base-baileys-memory\\Imagenes\\clinica.png',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '78b202bed6ea22cb4c4cb56df7d4ad7b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0278df5f-0d65-49a1-8406-6c98afe00839',
+  keyword: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  answer: 'Escriba su correo de paciente para iniciar',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '143521d1c1f29b064305d837444ac08c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '220C078ABE558912E0B2D4CC84E19B99',
+    participant: undefined
+  },
+  messageTimestamp: 1738975493,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    reactionMessage: ReactionMessage {
+      key: [MessageKey],
+      text: '😂',
+      senderTimestampMs: [Long]
+    }
+  },
+  body: '',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '7053E4FA93F263B2ECE3C0959DDC1BB6',
+    participant: undefined
+  },
+  messageTimestamp: 1738975494,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'correo-sin-arroba.com\nusuario@.com\n@sin-usuario.com\nusuario@@ejemplo.com',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'correo-sin-arroba.com\nusuario@.com\n@sin-usuario.com\nusuario@@ejemplo.com',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'A5D6767F9B0268E1D4406E7A6C630C38',
+    participant: undefined
+  },
+  messageTimestamp: 1738975502,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: "' OR 1=1; --\n" +
+      '" OR "a"="a\n' +
+      "admin@example.com' UNION SELECT * FROM users; --",
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: `' OR 1=1; --\n" OR "a"="a\nadmin@example.com' UNION SELECT * FROM users; --`,
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '4488559F1DDE1FDE2F055121B0038D2B',
+    participant: undefined
+  },
+  messageTimestamp: 1738975511,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'usuarioooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo@example.com',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'usuarioooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo@example.com',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '4FF1F8B857F1B76265FED6C4437184C0',
+    participant: undefined
+  },
+  messageTimestamp: 1738975516,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '?',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '?',
+  from: '51940628926'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  keyword: 'key_922bdc20-d096-4206-909a-2b0f89844007',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7036e6eab19c5b9ed7cfe40ee205539a'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  keyword: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: 'C:\\Users\\Sebastian\\Desktop\\Chatbot Definitivo\\base-baileys-memory\\Imagenes\\clinica.png',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '78b202bed6ea22cb4c4cb56df7d4ad7b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0278df5f-0d65-49a1-8406-6c98afe00839',
+  keyword: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  answer: 'Escriba su correo de paciente para iniciar',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '143521d1c1f29b064305d837444ac08c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '54606A8A1DA4864CE05CB211E0BEB7AF',
+    participant: undefined
+  },
+  messageTimestamp: 1738975548,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: '𝕦𝕤𝕦𝕒𝕣𝕚𝕠@𝕖𝕛𝕖𝕞𝕡𝕝𝕠.𝕔𝕠𝕞\n👻@ejemplo.com',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '𝕦𝕤𝕦𝕒𝕣𝕚𝕠@𝕖𝕛𝕖𝕞𝕡𝕝𝕠.𝕔𝕠𝕞\n👻@ejemplo.com',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'B8AB1361F4AEC4EDBA23DFBB4A335F9C',
+    participant: undefined
+  },
+  messageTimestamp: 1738975549,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: '𝕦𝕤𝕦𝕒𝕣𝕚𝕠@𝕖𝕛𝕖𝕞𝕡𝕝𝕠.𝕔𝕠𝕞\n👻@ejemplo.com',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '𝕦𝕤𝕦𝕒𝕣𝕚𝕠@𝕖𝕛𝕖𝕞𝕡𝕝𝕠.𝕔𝕠𝕞\n👻@ejemplo.com',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '9AEB449A1FD42F46517A9A7E0ED7EEC6',
+    participant: undefined
+  },
+  messageTimestamp: 1738975557,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'usuario@dominio.museum\nusuario@ejemplo.xyz\nusuario@correo.tech',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'usuario@dominio.museum\nusuario@ejemplo.xyz\nusuario@correo.tech',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '88A68E69040309C70AB67D5E48A21F55',
+    participant: undefined
+  },
+  messageTimestamp: 1738975566,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: '"usuario con espacio"@ejemplo.com\nusua!rio@ejemplo.com',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '"usuario con espacio"@ejemplo.com\nusua!rio@ejemplo.com',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'E28C5DB8C0D764BFB9B448143750E775',
+    participant: undefined
+  },
+  messageTimestamp: 1738975577,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: "<script>alert('XSS')</script>@example.com",
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: "<script>alert('XSS')</script>@example.com",
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51932769482@s.whatsapp.net',
+    fromMe: false,
+    id: '42C5D8A904198D6749943325F3DE2400',
+    participant: undefined
+  },
+  messageTimestamp: 1738975591,
+  pushName: 'Joaquín HidalgoCock',
+  broadcast: false,
+  message: Message {
+    conversation: 't%65st@gmail.cln',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 't%65st@gmail.cln',
+  from: '51932769482'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'E08A47B00B132BFA48BF47AD21010B9F',
+    participant: undefined
+  },
+  messageTimestamp: 1738975593,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Ojito, lo reconocio xd',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Ojito, lo reconocio xd',
+  from: '51940628926'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  keyword: 'key_922bdc20-d096-4206-909a-2b0f89844007',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7036e6eab19c5b9ed7cfe40ee205539a'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  keyword: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: 'C:\\Users\\Sebastian\\Desktop\\Chatbot Definitivo\\base-baileys-memory\\Imagenes\\clinica.png',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '78b202bed6ea22cb4c4cb56df7d4ad7b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0278df5f-0d65-49a1-8406-6c98afe00839',
+  keyword: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  answer: 'Escriba su correo de paciente para iniciar',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '143521d1c1f29b064305d837444ac08c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'D041C51E7FABDAC9FFC56F6D30DC50AA',
+    participant: undefined
+  },
+  messageTimestamp: 1738975613,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: "<script>alert('XSS')</script>@example.com",
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: "<script>alert('XSS')</script>@example.com",
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'E2DD2A5F387B9D3FC32C05DF90C0CA14',
+    participant: undefined
+  },
+  messageTimestamp: 1738975667,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'usu\nario@example.com',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'usu\nario@example.com',
+  from: '51940628926'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  keyword: 'key_922bdc20-d096-4206-909a-2b0f89844007',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7036e6eab19c5b9ed7cfe40ee205539a'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  keyword: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: 'C:\\Users\\Sebastian\\Desktop\\Chatbot Definitivo\\base-baileys-memory\\Imagenes\\clinica.png',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '78b202bed6ea22cb4c4cb56df7d4ad7b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0278df5f-0d65-49a1-8406-6c98afe00839',
+  keyword: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  answer: 'Escriba su correo de paciente para iniciar',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '143521d1c1f29b064305d837444ac08c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '5B212ED5129F448FC2CD07E5A8F3B062',
+    participant: undefined
+  },
+  messageTimestamp: 1738975685,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: "<script>alert('XSS')</script>@example.com",
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: "<script>alert('XSS')</script>@example.com",
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '3BB6BDFB984BCDCA223605598DD874CA',
+    participant: undefined
+  },
+  messageTimestamp: 1738975689,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '51940628926'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_60580bd4-3e86-476b-a680-71d61aba4cb8',
+  keyword: 'key_c8f753cf-c47b-453f-ad21-386e2286f450',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '309745213fdcd090667cdfc15a5e749f'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0c72ba75-3b15-43c7-8136-4a85d6ce384e',
+  keyword: 'ans_60580bd4-3e86-476b-a680-71d61aba4cb8',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd3387298f0bae32dcf849d64d91ba215'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: '19AFE7779154616E87F9CE8526625633',
+    participant: undefined
+  },
+  messageTimestamp: 1738975703,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Solo llega al bienvenido paciente?',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Solo llega al bienvenido paciente?',
+  from: '51940628926'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  keyword: 'key_922bdc20-d096-4206-909a-2b0f89844007',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7036e6eab19c5b9ed7cfe40ee205539a'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  keyword: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: 'C:\\Users\\Sebastian\\Desktop\\Chatbot Definitivo\\base-baileys-memory\\Imagenes\\clinica.png',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '78b202bed6ea22cb4c4cb56df7d4ad7b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0278df5f-0d65-49a1-8406-6c98afe00839',
+  keyword: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  answer: 'Escriba su correo de paciente para iniciar',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '143521d1c1f29b064305d837444ac08c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'F5DFD23FE14614327181EFFB35F3A1E5',
+    participant: undefined
+  },
+  messageTimestamp: 1738975725,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: '=?UTF-8?B?dXN1YXJpb0BleGFtcGxlLmNvbQ==?=',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '=?UTF-8?B?dXN1YXJpb0BleGFtcGxlLmNvbQ==?=',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'BB522F14BDB5F5DEC9C735119F163F90',
+    participant: undefined
+  },
+  messageTimestamp: 1738975730,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: '=?UTF-8?B?dXN1YXJpb0BleGFtcGxlLmNvbQ==?=',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '=?UTF-8?B?dXN1YXJpb0BleGFtcGxlLmNvbQ==?=',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51940628926@s.whatsapp.net',
+    fromMe: false,
+    id: 'CBBA95166BC2CEF5C31E10F473676ADC',
+    participant: undefined
+  },
+  messageTimestamp: 1738975744,
+  pushName: 'GHOP',
+  broadcast: false,
+  message: Message {
+    conversation: 'usuario@localhost\nusuario@127.0.0.1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'usuario@localhost\nusuario@127.0.0.1',
+  from: '51940628926'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51932769482@s.whatsapp.net',
+    fromMe: false,
+    id: '94BF8513A43AC73206AFB659A55B0451',
+    participant: undefined
+  },
+  messageTimestamp: 1738975902,
+  pushName: 'Joaquín HidalgoCock',
+  broadcast: false,
+  message: Message {
+    conversation: 'true@gmail.com',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'true@gmail.com',
+  from: '51932769482'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  keyword: 'key_922bdc20-d096-4206-909a-2b0f89844007',
+  answer: '🙌 Hola bienvenido, soy el Curita Bot',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7036e6eab19c5b9ed7cfe40ee205539a'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  keyword: 'ans_1a7a1dfd-fef3-4a16-8d49-696bc871f4a7',
+  answer: 'Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos',
+  options: {
+    media: 'C:\\Users\\Sebastian\\Desktop\\Chatbot Definitivo\\base-baileys-memory\\Imagenes\\clinica.png',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '78b202bed6ea22cb4c4cb56df7d4ad7b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0278df5f-0d65-49a1-8406-6c98afe00839',
+  keyword: 'ans_943c8c0a-dd98-4b79-b27d-c77cffc5b276',
+  answer: 'Escriba su correo de paciente para iniciar',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '143521d1c1f29b064305d837444ac08c'
+}

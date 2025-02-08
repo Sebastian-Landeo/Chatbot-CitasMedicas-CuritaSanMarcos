@@ -1,5 +1,6 @@
 const { addKeyword } = require('@bot-whatsapp/bot')
 const path = require('path')
+//Leer lo del path
 const fs = require('fs')
 
 const menuPath = path.join(__dirname, '..', 'mensajes', 'menu.txt')
@@ -14,7 +15,6 @@ const menuFlow = addKeyword("Menu").addAnswer(
                 "Respuesta no válida, por favor selecciona una de las opciones."
             )
         }
-
         try {
             switch (ctx.body) {
                 case "1":
