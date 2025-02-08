@@ -17,11 +17,15 @@ const flowSaludar = addKeyword(EVENTS.ACTION)
                     }
     
                     if (email.endsWith('@unmsm.edu.pe')) {
-                        await flowDynamic('Escriba su código de alumno')
+                        return await flowDynamic('Escriba su código de institución')
+                        //Enviar menú de opciones
                     } else {
                         const username = email.split('@')[0]
                         await flowDynamic(`Bienvenido paciente ${username}`)
+                        //Enviar menú de opciones
                     }
+                    // Por arreglar <-------------------
+                    return await flowDynamic(`Para ver las opciones disponibles, escribe *Menu* 👩‍⚕️👨‍⚕️`)
                 } catch (error) {
                     console.error('Error en la validación del correo:', error)
                     return fallBack('Ocurrió un error, por favor intenta nuevamente.')

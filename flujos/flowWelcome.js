@@ -13,7 +13,7 @@ const flowWelcome = addKeyword(EVENTS.WELCOME)
         }
 
         if (userStates[userId].hasWelcomed) {
-            return await flowDynamic('Por favor, escribe una opción correcta')
+            return await flowDynamic('Para ver las opciones disponibles, escribe *Menu*')
         }
         
         userStates[userId].hasWelcomed = true

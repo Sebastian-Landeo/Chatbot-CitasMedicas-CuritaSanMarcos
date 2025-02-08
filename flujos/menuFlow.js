@@ -18,14 +18,14 @@ const menuFlow = addKeyword("Menu").addAnswer(
         try {
             switch (ctx.body) {
                 case "1":
-                    return gotoFlow(require(path.join(__dirname, 'flowMenuRest')))
-                case "2":
                     return gotoFlow(require(path.join(__dirname, 'flowReservar')))
+                case "2":
+                    return gotoFlow(require(path.join(__dirname, 'flowVerCitas')))
                 case "3":
                     return gotoFlow(require(path.join(__dirname, 'flowConsultas')))
                 case "0":
                     return await flowDynamic(
-                        "Saliendo... Puedes volver a acceder a este menú escribiendo '*Menu*'"
+                        "Saliendo... Puedes volver a acceder a este menú escribiendo *Menu*"
                     )
             }
         } catch (error) {

@@ -1,0 +1,19 @@
+Selecciona una especialidad (Escribir número):
+1. Cardiología
+2. Dermatología
+3. Gastroenterología
+4. Ginecología
+5. Medicina General
+6. Medicina Interna
+7. Neumología
+8. Neurología
+9. Obstetricia
+10.	Odontología
+11.	Oftalmología
+12.	Otorrinolaringología
+13.	Traumatología
+14.	Pediatría
+15.	Psicología
+16.	Podología
+17.	Terapia Física y Rehabilitación
+18.	Urología
