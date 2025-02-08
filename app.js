@@ -3,7 +3,7 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
-const flowPrincipal = require('./flujos/flowPrincipal')
+const flowSaludar = require('./flujos/flowSaludar')
 const flowWelcome = require('./flujos/flowWelcome')
 const flowMenuRest = require('./flujos/flowMenuRest')
 const flowReservar = require('./flujos/flowReservar')
@@ -13,7 +13,8 @@ const menuFlow = require('./flujos/menuFlow')
 const main = async () => {
     try {
         const adapterDB = new MockAdapter()
-        const adapterFlow = createFlow([flowPrincipal, flowWelcome, menuFlow, flowConsultas, flowReservar, flowMenuRest])
+        const adapterFlow = createFlow([flowSaludar, flowWelcome, 
+            menuFlow, flowConsultas, flowReservar, flowMenuRest])
         const adapterProvider = createProvider(BaileysProvider)
 
         createBot({

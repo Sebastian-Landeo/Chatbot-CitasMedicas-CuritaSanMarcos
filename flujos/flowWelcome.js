@@ -1,33 +1,27 @@
 const { addKeyword, EVENTS } = require('@bot-whatsapp/bot')
 const path = require('path')
 
+const userStates = {} // Objeto global para almacenar estados de los usuarios
+
 const flowWelcome = addKeyword(EVENTS.WELCOME)
-    .addAnswer('🙌 Hola bienvenido, soy el Curita Bot')
-    .addAnswer('Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos', {
-        media: path.join(__dirname, '..', 'Imagenes', 'clinica.png')
-    })
-    .addAnswer('Escriba su correo de paciente para iniciar', { capture: true }, //No olvdiar el capture
-        async (ctx, { flowDynamic, fallBack }) => {
-            try {
-                const email = ctx.body.trim()
-                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
-
-                if (!emailRegex.test(email)) {
-                    return fallBack('Por favor, proporcione un correo electrónico válido.')
-                }
-
-                if (email.endsWith('@unmsm.edu.pe')) {
-                    await flowDynamic('Escriba su código de alumno')
-                } else {
-                    const username = email.split('@')[0]
-                    await flowDynamic(`Bienvenido paciente ${username}`)
-                }
-            } catch (error) {
-                console.error('Error en la validación del correo:', error)
-                return fallBack('Ocurrió un error, por favor intenta nuevamente.')
-            }
+    .addAction(async (ctx, { gotoFlow, flowDynamic }) => {
+        const userId = ctx.from // Identificador único del usuario
+        
+        // Inicializar estado del usuario si no existe
+        if (!userStates[userId]) {
+            userStates[userId] = { hasWelcomed: false }
         }
-    )
+
+        if (userStates[userId].hasWelcomed) {
+            return await flowDynamic('Por favor, escribe una opción correcta')
+        }
+        
+        userStates[userId].hasWelcomed = true
+        return gotoFlow(require(path.join(__dirname, 'flowSaludar')))
+    }) 
+
+module.exports = flowWelcome
+
 
    /*  .addAnswer("Y estoy dispuesto a ayudarte con tus citas en Curita San Marcos", {
         media: path.join(__dirname, 'Imagenes', 'clinica.png')

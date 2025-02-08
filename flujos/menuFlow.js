@@ -7,7 +7,7 @@ const menuPath = path.join(__dirname, '..', 'mensajes', 'menu.txt')
 const menu = fs.readFileSync(menuPath, 'utf-8')
 
 const menuFlow = addKeyword("Menu").addAnswer(
-    menu,
+    menu, //Mostrar el texto del archivo
     { capture: true },
     async (ctx, { gotoFlow, fallBack, flowDynamic }) => {
         if (!["1", "2", "3", "0"].includes(ctx.body)) {
