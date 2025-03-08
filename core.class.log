@@ -1,27 +1,27 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '51920232963@s.whatsapp.net',
+    remoteJid: '51957601828@s.whatsapp.net',
     fromMe: false,
-    id: '2AFA99B430A61A51FCD7D2B1BA00F6E5',
+    id: '3EB054D83CBB7E53C90448',
     participant: undefined
   },
-  messageTimestamp: 1738996030,
-  pushName: 'Rosa Cuentas',
+  messageTimestamp: 1739053251,
+  pushName: 'Marlene Reyes',
   broadcast: false,
   message: Message {
-    conversation: 'Hola',
+    conversation: 'hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'Hola',
-  from: '51920232963'
+  body: 'hola',
+  from: '51957601828'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_673ada0c-9274-47fb-a77b-d0bec5b60b22',
-  keyword: 'key_3430445d-2eef-45f5-af36-51defede53a6',
+  ref: 'ans_e0ce0008-c312-4cb7-ad7f-a4c9dd493894',
+  keyword: 'key_28870c14-667e-492d-9d53-7ce718e47eb0',
   answer: '__call_action__',
   options: {
     media: null,
@@ -35,17 +35,17 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'a508ca8a981af165745f8ce5dfd7e833'
+  refSerialize: '608d932a2a91312132f7b6b4603bd87c'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51920232963@s.whatsapp.net',
+    remoteJid: '51957601828@s.whatsapp.net',
     fromMe: false,
-    id: 'C432CAAF4323DBD56640E3FDBB2B47D6',
+    id: '3EB00622D9E1FBBE829DE8',
     participant: undefined
   },
-  messageTimestamp: 1738996041,
-  pushName: 'Rosa Cuentas',
+  messageTimestamp: 1739053558,
+  pushName: 'Marlene Reyes',
   broadcast: false,
   message: Message {
     conversation: 'menu',
@@ -56,11 +56,11 @@
     }
   },
   body: 'menu',
-  from: '51920232963'
+  from: '51957601828'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_44084d8c-d533-48ab-83f4-529d420b1699',
-  keyword: 'key_afe77c35-9f40-431b-a78e-1c71ef6665d9',
+  ref: 'ans_119297f5-f0f5-4570-9770-a6cb4a02a53b',
+  keyword: 'key_56e82347-bd29-4e07-8b28-21c0661324d6',
   answer: 'Elige alguna de estas opciones:\r\n' +
     '\r\n' +
     'Opcion 1 - Reservar citas\r\n' +
@@ -80,17 +80,17 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'f195669586f2eeeeb64c995521d475a8'
+  refSerialize: 'c00c798e7ac9d6ceadf94eca92afed6d'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51920232963@s.whatsapp.net',
+    remoteJid: '51957601828@s.whatsapp.net',
     fromMe: false,
-    id: 'C6C5C35F79C7A38AA824B48AD8435A18',
+    id: '3EB00D5B72F18F5D0F8125',
     participant: undefined
   },
-  messageTimestamp: 1738996075,
-  pushName: 'Rosa Cuentas',
+  messageTimestamp: 1739053567,
+  pushName: 'Marlene Reyes',
   broadcast: false,
   message: Message {
     conversation: '1',
@@ -101,274 +101,17 @@
     }
   },
   body: '1',
-  from: '51920232963'
+  from: '51957601828'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51920232963@s.whatsapp.net',
+    remoteJid: '51957601828@s.whatsapp.net',
     fromMe: false,
-    id: '25B289A39D86150D833E332B6A50C64C',
+    id: '3EB004B70E8FA020A0AD5F',
     participant: undefined
   },
-  messageTimestamp: 1738996085,
-  pushName: 'Rosa Cuentas',
-  broadcast: false,
-  message: Message {
-    conversation: '1',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '1',
-  from: '51920232963'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51920232963@s.whatsapp.net',
-    fromMe: false,
-    id: '05F30F9721CBBBED2747D4BC88F9FDF7',
-    participant: undefined
-  },
-  messageTimestamp: 1738996091,
-  pushName: 'Rosa Cuentas',
-  broadcast: false,
-  message: Message {
-    conversation: 'A',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'A',
-  from: '51920232963'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_673ada0c-9274-47fb-a77b-d0bec5b60b22',
-  keyword: 'key_3430445d-2eef-45f5-af36-51defede53a6',
-  answer: '__call_action__',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'a508ca8a981af165745f8ce5dfd7e833'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51920232963@s.whatsapp.net',
-    fromMe: false,
-    id: 'BC07A54710CCE8B063D03B0C64E34F57',
-    participant: undefined
-  },
-  messageTimestamp: 1738996095,
-  pushName: 'Rosa Cuentas',
-  broadcast: false,
-  message: Message {
-    conversation: 'Menu',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Menu',
-  from: '51920232963'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_44084d8c-d533-48ab-83f4-529d420b1699',
-  keyword: 'key_afe77c35-9f40-431b-a78e-1c71ef6665d9',
-  answer: 'Elige alguna de estas opciones:\r\n' +
-    '\r\n' +
-    'Opcion 1 - Reservar citas\r\n' +
-    'Opcion 2 - Ver citas pendientes\r\n' +
-    'Opcion 3 - Hacer consultas\r\n' +
-    '\r\n' +
-    'Opcion 0 - Salir',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'f195669586f2eeeeb64c995521d475a8'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51920232963@s.whatsapp.net',
-    fromMe: false,
-    id: '39767BF0D8CC6E4769365E5559B3BC86',
-    participant: undefined
-  },
-  messageTimestamp: 1738996098,
-  pushName: 'Rosa Cuentas',
-  broadcast: false,
-  message: Message {
-    conversation: '1',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '1',
-  from: '51920232963'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51920232963@s.whatsapp.net',
-    fromMe: false,
-    id: '03BB3D413765997D83911B1263CD9AB7',
-    participant: undefined
-  },
-  messageTimestamp: 1738996101,
-  pushName: 'Rosa Cuentas',
-  broadcast: false,
-  message: Message {
-    conversation: '18',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '18',
-  from: '51920232963'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51932769482@s.whatsapp.net',
-    fromMe: false,
-    id: '2FF871FA3174E0B1676A1D9376C63CBD',
-    participant: undefined
-  },
-  messageTimestamp: 1738996159,
-  pushName: 'Joaquín HidalgoCock',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Switch?',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Switch?',
-  from: '51932769482'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_673ada0c-9274-47fb-a77b-d0bec5b60b22',
-  keyword: 'key_3430445d-2eef-45f5-af36-51defede53a6',
-  answer: '__call_action__',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'a508ca8a981af165745f8ce5dfd7e833'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51932769482@s.whatsapp.net',
-    fromMe: false,
-    id: '5CF848CDD8278A9E19695A9223A4F08B',
-    participant: undefined
-  },
-  messageTimestamp: 1738996185,
-  pushName: 'Joaquín HidalgoCock',
-  broadcast: false,
-  message: Message {
-    conversation: 'true@gmail.com',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'true@gmail.com',
-  from: '51932769482'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51932769482@s.whatsapp.net',
-    fromMe: false,
-    id: 'C328E4C32F8AEF2EC736A96012ABC9A7',
-    participant: undefined
-  },
-  messageTimestamp: 1738996193,
-  pushName: 'Joaquín HidalgoCock',
-  broadcast: false,
-  message: Message {
-    conversation: 'Menu',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Menu',
-  from: '51932769482'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_44084d8c-d533-48ab-83f4-529d420b1699',
-  keyword: 'key_afe77c35-9f40-431b-a78e-1c71ef6665d9',
-  answer: 'Elige alguna de estas opciones:\r\n' +
-    '\r\n' +
-    'Opcion 1 - Reservar citas\r\n' +
-    'Opcion 2 - Ver citas pendientes\r\n' +
-    'Opcion 3 - Hacer consultas\r\n' +
-    '\r\n' +
-    'Opcion 0 - Salir',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'f195669586f2eeeeb64c995521d475a8'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51932769482@s.whatsapp.net',
-    fromMe: false,
-    id: '19653A7CAFCD96CA1105B76F46381FD2',
-    participant: undefined
-  },
-  messageTimestamp: 1738996228,
-  pushName: 'Joaquín HidalgoCock',
+  messageTimestamp: 1739053571,
+  pushName: 'Marlene Reyes',
   broadcast: false,
   message: Message {
     conversation: '2',
@@ -379,32 +122,32 @@
     }
   },
   body: '2',
-  from: '51932769482'
+  from: '51957601828'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51932769482@s.whatsapp.net',
+    remoteJid: '51957601828@s.whatsapp.net',
     fromMe: false,
-    id: '8539893BAD66E140F1455DDDFFCAA6F8',
+    id: '3EB092E35FEE76A0D875A4',
     participant: undefined
   },
-  messageTimestamp: 1738996233,
-  pushName: 'Joaquín HidalgoCock',
+  messageTimestamp: 1739053775,
+  pushName: 'Marlene Reyes',
   broadcast: false,
   message: Message {
-    conversation: '1',
+    conversation: 'gracias',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: '1',
-  from: '51932769482'
+  body: 'gracias',
+  from: '51957601828'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_673ada0c-9274-47fb-a77b-d0bec5b60b22',
-  keyword: 'key_3430445d-2eef-45f5-af36-51defede53a6',
+  ref: 'ans_e0ce0008-c312-4cb7-ad7f-a4c9dd493894',
+  keyword: 'key_28870c14-667e-492d-9d53-7ce718e47eb0',
   answer: '__call_action__',
   options: {
     media: null,
@@ -418,32 +161,32 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'a508ca8a981af165745f8ce5dfd7e833'
+  refSerialize: '608d932a2a91312132f7b6b4603bd87c'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51932769482@s.whatsapp.net',
+    remoteJid: '51957601828@s.whatsapp.net',
     fromMe: false,
-    id: 'EE722AC9879161D56432F0A8FD70A852',
+    id: '3EB0577253717DECBA2CF3',
     participant: undefined
   },
-  messageTimestamp: 1738996237,
-  pushName: 'Joaquín HidalgoCock',
+  messageTimestamp: 1739053787,
+  pushName: 'Marlene Reyes',
   broadcast: false,
   message: Message {
-    conversation: 'Menu',
+    conversation: 'menu',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'Menu',
-  from: '51932769482'
+  body: 'menu',
+  from: '51957601828'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_44084d8c-d533-48ab-83f4-529d420b1699',
-  keyword: 'key_afe77c35-9f40-431b-a78e-1c71ef6665d9',
+  ref: 'ans_119297f5-f0f5-4570-9770-a6cb4a02a53b',
+  keyword: 'key_56e82347-bd29-4e07-8b28-21c0661324d6',
   answer: 'Elige alguna de estas opciones:\r\n' +
     '\r\n' +
     'Opcion 1 - Reservar citas\r\n' +
@@ -463,139 +206,5 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'f195669586f2eeeeb64c995521d475a8'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51932769482@s.whatsapp.net',
-    fromMe: false,
-    id: '6D4D592CFE0A91E90784C5AE1BAF4AAD',
-    participant: undefined
-  },
-  messageTimestamp: 1738996240,
-  pushName: 'Joaquín HidalgoCock',
-  broadcast: false,
-  message: Message {
-    conversation: '1',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '1',
-  from: '51932769482'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51920232963@s.whatsapp.net',
-    fromMe: false,
-    id: '096ED7D1F6E476BCAB019B7C740BDEF3',
-    participant: undefined
-  },
-  messageTimestamp: 1738996258,
-  pushName: 'Rosa Cuentas',
-  broadcast: false,
-  message: Message {
-    conversation: 'Menu',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Menu',
-  from: '51920232963'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_44084d8c-d533-48ab-83f4-529d420b1699',
-  keyword: 'key_afe77c35-9f40-431b-a78e-1c71ef6665d9',
-  answer: 'Elige alguna de estas opciones:\r\n' +
-    '\r\n' +
-    'Opcion 1 - Reservar citas\r\n' +
-    'Opcion 2 - Ver citas pendientes\r\n' +
-    'Opcion 3 - Hacer consultas\r\n' +
-    '\r\n' +
-    'Opcion 0 - Salir',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'f195669586f2eeeeb64c995521d475a8'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51920232963@s.whatsapp.net',
-    fromMe: false,
-    id: '856917B8FFDB418999974FDBD87D4F61',
-    participant: undefined
-  },
-  messageTimestamp: 1738996267,
-  pushName: 'Rosa Cuentas',
-  broadcast: false,
-  message: Message {
-    conversation: '1',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '1',
-  from: '51920232963'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51920232963@s.whatsapp.net',
-    fromMe: false,
-    id: '1BA99D5D82F073E542C37AD4F5190D32',
-    participant: undefined
-  },
-  messageTimestamp: 1738996272,
-  pushName: 'Rosa Cuentas',
-  broadcast: false,
-  message: Message {
-    conversation: '10',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '10',
-  from: '51920232963'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51932769482@s.whatsapp.net',
-    fromMe: false,
-    id: '453D6D99880794309A775527A51D1BDD',
-    participant: undefined
-  },
-  messageTimestamp: 1738996275,
-  pushName: 'Joaquín HidalgoCock',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'En si creo que deberías revisar otros sistemas médicos para ver cómo lo hacen',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'En si creo que deberías revisar otros sistemas médicos para ver cómo lo hacen',
-  from: '51932769482'
+  refSerialize: 'c00c798e7ac9d6ceadf94eca92afed6d'
 }
