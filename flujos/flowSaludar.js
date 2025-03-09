@@ -24,7 +24,7 @@ const flowSaludar = addKeyword(EVENTS.ACTION)
                         await flowDynamic(`Bienvenido paciente ${username}`)
                         //Enviar menú de opciones
                     }
-                    // Por arreglar <-------------------
+                    // Por arreglar, este mensaje no sale para @unmsm.edu.pe <-------------------
                     return await flowDynamic(`Para ver las opciones disponibles, escribe *Menu* 👩‍⚕️👨‍⚕️`)
                 } catch (error) {
                     console.error('Error en la validación del correo:', error)

@@ -8,7 +8,7 @@ const menu = fs.readFileSync(menuPath, 'utf-8')
 
 const menuFlow = addKeyword("Menu").addAnswer(
     menu, //Mostrar el texto del archivo
-    { capture: true },
+    { capture: true }, //para captar la respuesta del usuario
     async (ctx, { gotoFlow, fallBack, flowDynamic }) => {
         if (!["1", "2", "3", "0"].includes(ctx.body)) {
             return fallBack(

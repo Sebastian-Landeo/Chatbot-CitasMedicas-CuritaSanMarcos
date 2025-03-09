@@ -1,27 +1,27 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '51957601828@s.whatsapp.net',
+    remoteJid: '51964542293@s.whatsapp.net',
     fromMe: false,
-    id: '3EB054D83CBB7E53C90448',
+    id: '707370C757C97D576918AFF363D97852',
     participant: undefined
   },
-  messageTimestamp: 1739053251,
-  pushName: 'Marlene Reyes',
+  messageTimestamp: 1741495620,
+  pushName: 'Sebastian (Salcito)',
   broadcast: false,
   message: Message {
-    conversation: 'hola',
+    conversation: 'Hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'hola',
-  from: '51957601828'
+  body: 'Hola',
+  from: '51964542293'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e0ce0008-c312-4cb7-ad7f-a4c9dd493894',
-  keyword: 'key_28870c14-667e-492d-9d53-7ce718e47eb0',
+  ref: 'ans_b86b4712-9365-466c-a26c-6f214cd12d3d',
+  keyword: 'key_f84ac498-3518-4b08-9d50-ddc62f331073',
   answer: '__call_action__',
   options: {
     media: null,
@@ -35,32 +35,92 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '608d932a2a91312132f7b6b4603bd87c'
+  refSerialize: '1af27bd29f0f34bdcd40700f3f165f74'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51957601828@s.whatsapp.net',
+    remoteJid: '51964542293@s.whatsapp.net',
     fromMe: false,
-    id: '3EB00622D9E1FBBE829DE8',
+    id: 'DCB5F867AA71C9831E71B9F4D9038F11',
     participant: undefined
   },
-  messageTimestamp: 1739053558,
-  pushName: 'Marlene Reyes',
+  messageTimestamp: 1741495643,
+  pushName: 'Sebastian (Salcito)',
   broadcast: false,
   message: Message {
-    conversation: 'menu',
+    conversation: 'sebastian.landeo@unmsm.edu.pe',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'menu',
-  from: '51957601828'
+  body: 'sebastian.landeo@unmsm.edu.pe',
+  from: '51964542293'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51964542293@s.whatsapp.net',
+    fromMe: false,
+    id: 'DDD9AB5996327B5FCE4621F4378FA242',
+    participant: undefined
+  },
+  messageTimestamp: 1741495651,
+  pushName: 'Sebastian (Salcito)',
+  broadcast: false,
+  message: Message {
+    conversation: '21200224',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '21200224',
+  from: '51964542293'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_119297f5-f0f5-4570-9770-a6cb4a02a53b',
-  keyword: 'key_56e82347-bd29-4e07-8b28-21c0661324d6',
+  ref: 'ans_b86b4712-9365-466c-a26c-6f214cd12d3d',
+  keyword: 'key_f84ac498-3518-4b08-9d50-ddc62f331073',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '1af27bd29f0f34bdcd40700f3f165f74'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51964542293@s.whatsapp.net',
+    fromMe: false,
+    id: '5D815A34D62308C6E591499A570DCDC4',
+    participant: undefined
+  },
+  messageTimestamp: 1741495656,
+  pushName: 'Sebastian (Salcito)',
+  broadcast: false,
+  message: Message {
+    conversation: 'Menu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Menu',
+  from: '51964542293'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5c5fa047-3672-4a60-b00d-2bfd931f29a0',
+  keyword: 'key_30486a9a-5198-4f87-855b-5b7ce4468eac',
   answer: 'Elige alguna de estas opciones:\r\n' +
     '\r\n' +
     'Opcion 1 - Reservar citas\r\n' +
@@ -80,17 +140,17 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'c00c798e7ac9d6ceadf94eca92afed6d'
+  refSerialize: 'd62cd4d9cf049f2c6421f7b6195383c2'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51957601828@s.whatsapp.net',
+    remoteJid: '51964542293@s.whatsapp.net',
     fromMe: false,
-    id: '3EB00D5B72F18F5D0F8125',
+    id: '2EA4F06E3079387E689147729EF510A1',
     participant: undefined
   },
-  messageTimestamp: 1739053567,
-  pushName: 'Marlene Reyes',
+  messageTimestamp: 1741495660,
+  pushName: 'Sebastian (Salcito)',
   broadcast: false,
   message: Message {
     conversation: '1',
@@ -101,53 +161,53 @@
     }
   },
   body: '1',
-  from: '51957601828'
+  from: '51964542293'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51957601828@s.whatsapp.net',
+    remoteJid: '51964542293@s.whatsapp.net',
     fromMe: false,
-    id: '3EB004B70E8FA020A0AD5F',
+    id: '69F078E84BF9B24C36A7965EF9B4A451',
     participant: undefined
   },
-  messageTimestamp: 1739053571,
-  pushName: 'Marlene Reyes',
+  messageTimestamp: 1741495665,
+  pushName: 'Sebastian (Salcito)',
   broadcast: false,
   message: Message {
-    conversation: '2',
+    conversation: '5',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: '2',
-  from: '51957601828'
+  body: '5',
+  from: '51964542293'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51957601828@s.whatsapp.net',
+    remoteJid: '51964542293@s.whatsapp.net',
     fromMe: false,
-    id: '3EB092E35FEE76A0D875A4',
+    id: 'E12AF557F1320F5FCE8FE73C145E64BE',
     participant: undefined
   },
-  messageTimestamp: 1739053775,
-  pushName: 'Marlene Reyes',
+  messageTimestamp: 1741495671,
+  pushName: 'Sebastian (Salcito)',
   broadcast: false,
   message: Message {
-    conversation: 'gracias',
+    conversation: 'Q más',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'gracias',
-  from: '51957601828'
+  body: 'Q más',
+  from: '51964542293'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e0ce0008-c312-4cb7-ad7f-a4c9dd493894',
-  keyword: 'key_28870c14-667e-492d-9d53-7ce718e47eb0',
+  ref: 'ans_b86b4712-9365-466c-a26c-6f214cd12d3d',
+  keyword: 'key_f84ac498-3518-4b08-9d50-ddc62f331073',
   answer: '__call_action__',
   options: {
     media: null,
@@ -161,32 +221,32 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '608d932a2a91312132f7b6b4603bd87c'
+  refSerialize: '1af27bd29f0f34bdcd40700f3f165f74'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51957601828@s.whatsapp.net',
+    remoteJid: '51964542293@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0577253717DECBA2CF3',
+    id: '6EE7BD4D94BB5B89D15E8223E4B2F582',
     participant: undefined
   },
-  messageTimestamp: 1739053787,
-  pushName: 'Marlene Reyes',
+  messageTimestamp: 1741495674,
+  pushName: 'Sebastian (Salcito)',
   broadcast: false,
   message: Message {
-    conversation: 'menu',
+    conversation: 'Menu',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'menu',
-  from: '51957601828'
+  body: 'Menu',
+  from: '51964542293'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_119297f5-f0f5-4570-9770-a6cb4a02a53b',
-  keyword: 'key_56e82347-bd29-4e07-8b28-21c0661324d6',
+  ref: 'ans_5c5fa047-3672-4a60-b00d-2bfd931f29a0',
+  keyword: 'key_30486a9a-5198-4f87-855b-5b7ce4468eac',
   answer: 'Elige alguna de estas opciones:\r\n' +
     '\r\n' +
     'Opcion 1 - Reservar citas\r\n' +
@@ -206,5 +266,5 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'c00c798e7ac9d6ceadf94eca92afed6d'
+  refSerialize: 'd62cd4d9cf049f2c6421f7b6195383c2'
 }
