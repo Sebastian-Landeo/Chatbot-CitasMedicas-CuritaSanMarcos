@@ -1,0 +1,160 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51964542293@s.whatsapp.net',
+    fromMe: false,
+    id: '3F2464FFC56EB5304F02',
+    participant: undefined
+  },
+  messageTimestamp: 1741637355,
+  pushName: 'Sebastian (Salcito)',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'menu', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'menu',
+  from: '51964542293'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cf56cc8b-50df-479b-b727-68ca6f57121c',
+  keyword: 'key_584371d9-3dd8-497a-8fed-560bfd3f0cfd',
+  answer: 'Elige alguna de estas opciones:\r\n' +
+    '\r\n' +
+    'Opcion 1 - Reservar citas\r\n' +
+    'Opcion 2 - Ver citas pendientes\r\n' +
+    'Opcion 3 - Hacer consultas\r\n' +
+    '\r\n' +
+    'Opcion 0 - Salir',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '933f4664c520947c78dee99fe606e5c3'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51964542293@s.whatsapp.net',
+    fromMe: false,
+    id: '3FE0925BD851292460FB',
+    participant: undefined
+  },
+  messageTimestamp: 1741637362,
+  pushName: 'Sebastian (Salcito)',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: '1', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '51964542293'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51964542293@s.whatsapp.net',
+    fromMe: false,
+    id: '3F40FF19F94DF090EC83',
+    participant: undefined
+  },
+  messageTimestamp: 1741637365,
+  pushName: 'Sebastian (Salcito)',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: '3', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '51964542293'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8606a0f4-f569-4946-ac43-38349d8089d5',
+  keyword: 'ans_3c56bfc3-e7a9-4899-853d-c72f8024e650',
+  answer: 'Selecciona un médico para ver sus horarios',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4c1d456b2057b29bb535fc5619c3ae63'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51964542293@s.whatsapp.net',
+    fromMe: false,
+    id: '3F24520336C66A453605',
+    participant: undefined
+  },
+  messageTimestamp: 1741637368,
+  pushName: 'Sebastian (Salcito)',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: '1', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '51964542293'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a20e124f-4c63-45db-bbd5-d711af066b6b',
+  keyword: 'ans_8606a0f4-f569-4946-ac43-38349d8089d5',
+  answer: 'Selecciona un horario para reservar tu cita',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '82af7fbd1579fbabe08b0921eb24cfd4'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51964542293@s.whatsapp.net',
+    fromMe: false,
+    id: '3F00E60A05D3F8DFA0C5',
+    participant: undefined
+  },
+  messageTimestamp: 1741637371,
+  pushName: 'Sebastian (Salcito)',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: '1', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '51964542293'
+}
