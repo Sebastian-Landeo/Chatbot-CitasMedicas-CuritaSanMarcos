@@ -2,10 +2,10 @@
   key: {
     remoteJid: '51964542293@s.whatsapp.net',
     fromMe: false,
-    id: '707370C757C97D576918AFF363D97852',
+    id: '02143058A7D7C546AD2C78771453A4B7',
     participant: undefined
   },
-  messageTimestamp: 1741495620,
+  messageTimestamp: 1741573769,
   pushName: 'Sebastian (Salcito)',
   broadcast: false,
   message: Message {
@@ -20,8 +20,8 @@
   from: '51964542293'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b86b4712-9365-466c-a26c-6f214cd12d3d',
-  keyword: 'key_f84ac498-3518-4b08-9d50-ddc62f331073',
+  ref: 'ans_00ea7669-ea69-48a1-bee4-bd0959c154d9',
+  keyword: 'key_89d753d3-85ac-4a00-9fa0-b1c5e40fb48d',
   answer: '__call_action__',
   options: {
     media: null,
@@ -35,76 +35,37 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '1af27bd29f0f34bdcd40700f3f165f74'
+  refSerialize: '588d7ff6da4b7e63d6f1b64ce7664d6b'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '51964542293@s.whatsapp.net',
     fromMe: false,
-    id: 'DCB5F867AA71C9831E71B9F4D9038F11',
+    id: '0FFB027FA3D8AE44A414C4CCA0CF0790',
     participant: undefined
   },
-  messageTimestamp: 1741495643,
+  messageTimestamp: 1741573773,
   pushName: 'Sebastian (Salcito)',
   broadcast: false,
   message: Message {
-    conversation: 'sebastian.landeo@unmsm.edu.pe',
+    conversation: '3',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'sebastian.landeo@unmsm.edu.pe',
+  body: '3',
   from: '51964542293'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '51964542293@s.whatsapp.net',
     fromMe: false,
-    id: 'DDD9AB5996327B5FCE4621F4378FA242',
+    id: 'F6A38D455AEDE5564F81DBA7F446A425',
     participant: undefined
   },
-  messageTimestamp: 1741495651,
-  pushName: 'Sebastian (Salcito)',
-  broadcast: false,
-  message: Message {
-    conversation: '21200224',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '21200224',
-  from: '51964542293'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b86b4712-9365-466c-a26c-6f214cd12d3d',
-  keyword: 'key_f84ac498-3518-4b08-9d50-ddc62f331073',
-  answer: '__call_action__',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '1af27bd29f0f34bdcd40700f3f165f74'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51964542293@s.whatsapp.net',
-    fromMe: false,
-    id: '5D815A34D62308C6E591499A570DCDC4',
-    participant: undefined
-  },
-  messageTimestamp: 1741495656,
+  messageTimestamp: 1741573777,
   pushName: 'Sebastian (Salcito)',
   broadcast: false,
   message: Message {
@@ -119,8 +80,8 @@
   from: '51964542293'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5c5fa047-3672-4a60-b00d-2bfd931f29a0',
-  keyword: 'key_30486a9a-5198-4f87-855b-5b7ce4468eac',
+  ref: 'ans_48adbfa0-0140-4194-887a-290e27dd0b1e',
+  keyword: 'key_c7d0ffe6-c462-4bc8-9f56-93eea45f0f9b',
   answer: 'Elige alguna de estas opciones:\r\n' +
     '\r\n' +
     'Opcion 1 - Reservar citas\r\n' +
@@ -140,131 +101,26 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'd62cd4d9cf049f2c6421f7b6195383c2'
+  refSerialize: 'ca962574760c72e1d03c961e37525cb0'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '51964542293@s.whatsapp.net',
     fromMe: false,
-    id: '2EA4F06E3079387E689147729EF510A1',
+    id: '033D9B906F3EA26123D8230E1437C8D0',
     participant: undefined
   },
-  messageTimestamp: 1741495660,
+  messageTimestamp: 1741573779,
   pushName: 'Sebastian (Salcito)',
   broadcast: false,
   message: Message {
-    conversation: '1',
+    conversation: '3',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: '1',
+  body: '3',
   from: '51964542293'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51964542293@s.whatsapp.net',
-    fromMe: false,
-    id: '69F078E84BF9B24C36A7965EF9B4A451',
-    participant: undefined
-  },
-  messageTimestamp: 1741495665,
-  pushName: 'Sebastian (Salcito)',
-  broadcast: false,
-  message: Message {
-    conversation: '5',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: '5',
-  from: '51964542293'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51964542293@s.whatsapp.net',
-    fromMe: false,
-    id: 'E12AF557F1320F5FCE8FE73C145E64BE',
-    participant: undefined
-  },
-  messageTimestamp: 1741495671,
-  pushName: 'Sebastian (Salcito)',
-  broadcast: false,
-  message: Message {
-    conversation: 'Q más',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Q más',
-  from: '51964542293'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b86b4712-9365-466c-a26c-6f214cd12d3d',
-  keyword: 'key_f84ac498-3518-4b08-9d50-ddc62f331073',
-  answer: '__call_action__',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '1af27bd29f0f34bdcd40700f3f165f74'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51964542293@s.whatsapp.net',
-    fromMe: false,
-    id: '6EE7BD4D94BB5B89D15E8223E4B2F582',
-    participant: undefined
-  },
-  messageTimestamp: 1741495674,
-  pushName: 'Sebastian (Salcito)',
-  broadcast: false,
-  message: Message {
-    conversation: 'Menu',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Menu',
-  from: '51964542293'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5c5fa047-3672-4a60-b00d-2bfd931f29a0',
-  keyword: 'key_30486a9a-5198-4f87-855b-5b7ce4468eac',
-  answer: 'Elige alguna de estas opciones:\r\n' +
-    '\r\n' +
-    'Opcion 1 - Reservar citas\r\n' +
-    'Opcion 2 - Ver citas pendientes\r\n' +
-    'Opcion 3 - Hacer consultas\r\n' +
-    '\r\n' +
-    'Opcion 0 - Salir',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'd62cd4d9cf049f2c6421f7b6195383c2'
 }
