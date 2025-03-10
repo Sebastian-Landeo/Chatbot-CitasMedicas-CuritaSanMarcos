@@ -1,3 +1,5 @@
+use curitasanmarcos;
+
 CREATE TABLE usuarios (
     id_usuario INT PRIMARY KEY AUTO_INCREMENT,
     nombres VARCHAR(100) NOT NULL,
@@ -149,6 +151,23 @@ INSERT INTO usuarios (nombres, apellidos, correo, contrasena, tipo_usuario, codi
 
 -- Se importo en la tabla horarios el archivo horarios.csv
 
-SELECT * FROM usuarios
+SELECT * FROM usuarios;
+SELECT * FROM history;
+SELECT nombre, apellido, especialidades.nombre_especialidad FROM medicos
+	JOIN especialidades ON medicos.id_especialidad = especialidades.id_especialidad
+    WHERE especialidades.nombre_especialidad = 'valor de la key';
+SELECT * FROM horarios;
+
+SELECT horarios.fecha, horarios.hora_inicio, horarios.hora_final FROM medicos
+    JOIN horarios ON horarios.id_medico = medicos.id_medico
+WHERE  medicos.nombre = "NOMBRE SELECCIONADO" AND medicos.apellido = "APELLIDO SELECCIONADO";
+
+
+
+
+
+SELECT CONCAT(medicos.nombre, ' ', medicos.apellido) FROM medicos WHERE nombre = "Manuel" AND apellido = "Álvarez";
+
+
 
 
