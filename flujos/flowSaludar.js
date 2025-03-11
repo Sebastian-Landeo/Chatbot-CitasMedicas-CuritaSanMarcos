@@ -1,5 +1,9 @@
 const { addKeyword, EVENTS } = require('@bot-whatsapp/bot')
 const path = require('path')
+//Para las querys
+const connection = require('../mysql') // Importamos la conexión a MySQL
+const util = require('util')
+const query = util.promisify(connection.query).bind(connection)
 
 const flowSaludar = addKeyword(EVENTS.ACTION)
         .addAnswer('🙌 Hola bienvenido, soy el Curita Bot')
@@ -9,25 +13,50 @@ const flowSaludar = addKeyword(EVENTS.ACTION)
         .addAnswer('Escriba su correo de paciente para iniciar', { capture: true }, //No olvdiar el capture
             async (ctx, { flowDynamic, fallBack }) => {
                 try {
-                    const email = ctx.body.trim()
-                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+                    const correo = ctx.body
+
+                    // Realizar la consulta a la base de datos
+                    const rows = await query(`
+                        SELECT SUBSTRING_INDEX(nombres, ' ', 1) AS primer_nombre
+                        FROM usuarios
+                        WHERE correo = ?
+                    `, [correo])
     
-                    if (!emailRegex.test(email)) {
-                        return fallBack('Por favor, proporcione un correo electrónico válido.')
+                    if (rows.length === 0) {
+                        await flowDynamic(`El correo no es válido: ${correo}.`)
+                        return fallBack('Por favor, ingrese un correo válido.')
                     }
-    
-                    if (email.endsWith('@unmsm.edu.pe')) {
-                        return await flowDynamic('Escriba su código de institución')
-                        //Enviar menú de opciones
-                    } else {
-                        const username = email.split('@')[0]
-                        await flowDynamic(`Bienvenido paciente ${username}`)
-                        //Enviar menú de opciones
-                    }
-                    // Por arreglar, este mensaje no sale para @unmsm.edu.pe <-------------------
-                    return await flowDynamic(`Para ver las opciones disponibles, escribe *Menu* 👩‍⚕️👨‍⚕️`)
+
                 } catch (error) {
-                    console.error('Error en la validación del correo:', error)
+                    console.error('Error al consultar la base de datos:', error)
+                    return fallBack('Ocurrió un error, por favor intenta nuevamente.')
+                }
+            }
+        )
+        .addAnswer('Escriba su código de san marcos', { capture: true }, //No olvdiar el capture
+            async (ctx, { flowDynamic, fallBack }) => {
+                try {
+                    const codigo = ctx.body
+
+                    // Realizar la consulta a la base de datos
+                    const rows = await query(`
+                        SELECT SUBSTRING_INDEX(nombres, ' ', 1) AS primer_nombre,
+                        codigo 
+                        FROM usuarios
+                        WHERE codigo = ?
+                    `, [codigo])
+    
+                    if (rows.length === 0) {
+                        await flowDynamic(`El código no es válido: ${codigo}.`)
+                        return fallBack('Por favor, ingrese un código válido.')
+                    }
+    
+                    await flowDynamic('Bienvenido ' + rows[0].primer_nombre + ', ¿En qué puedo ayudarte?')
+                    // Enviar mensaje para ver las opciones disponibles
+                    return await flowDynamic(`Para ver las opciones disponibles, escribe *Menu* 👩‍⚕️👨‍⚕️`)
+
+                } catch (error) {
+                    console.error('Error al consultar la base de datos:', error)
                     return fallBack('Ocurrió un error, por favor intenta nuevamente.')
                 }
             }

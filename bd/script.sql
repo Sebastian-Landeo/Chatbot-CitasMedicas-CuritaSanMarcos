@@ -176,3 +176,10 @@ id_atencion = 1 WHERE id_atencion = 1;
 
 SELECT * FROM citas;
 
+SELECT correo, 
+       SUBSTRING_INDEX(nombres, ' ', 1) AS primer_nombre, 
+       codigo 
+FROM usuarios;
+
+SELECT * FROM usuarios;
+
