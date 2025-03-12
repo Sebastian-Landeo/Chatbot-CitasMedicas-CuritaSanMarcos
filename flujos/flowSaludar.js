@@ -34,7 +34,7 @@ const flowSaludar = addKeyword(EVENTS.ACTION)
             }
         )
         .addAnswer('Escriba su código de san marcos', { capture: true }, //No olvdiar el capture
-            async (ctx, { flowDynamic, fallBack }) => {
+            async (ctx, { flowDynamic, fallBack}) => {
                 try {
                     const codigo = ctx.body
 
@@ -50,7 +50,11 @@ const flowSaludar = addKeyword(EVENTS.ACTION)
                         await flowDynamic(`El código no es válido: ${codigo}.`)
                         return fallBack('Por favor, ingrese un código válido.')
                     }
-    
+
+                    const telefono = ctx.from
+                    console.log('Contexto', ctx);
+                    console.log('Telefono', ctx.from);
+
                     await flowDynamic('Bienvenido ' + rows[0].primer_nombre + ', ¿En qué puedo ayudarte?')
                     // Enviar mensaje para ver las opciones disponibles
                     return await flowDynamic(`Para ver las opciones disponibles, escribe *Menu* 👩‍⚕️👨‍⚕️`)
@@ -61,4 +65,6 @@ const flowSaludar = addKeyword(EVENTS.ACTION)
                 }
             }
         )
-module.exports = flowSaludar
+
+        
+module.exports = flowSaludar;
