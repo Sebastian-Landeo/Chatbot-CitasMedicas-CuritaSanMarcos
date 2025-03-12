@@ -44,20 +44,21 @@ const especialidadesDict = {
 }
 
 const flowReservar = addKeyword(EVENTS.ACTION)
-    .addAnswer('Aquí podrás reservar tus citas')
+    .addAnswer('📆 Aquí podrás reservar tus citas 📆')
     .addAnswer(
         especialidades, // Mostrar el texto del archivo
         { capture: true },
-        async (ctx, { fallBack, flowDynamic }) => {
+        async (ctx, { fallBack, flowDynamic, gotoFlow}) => {
             if (!Object.keys(especialidadesDict).includes(ctx.body)) {
                 return fallBack(
-                    "Respuesta no válida, por favor selecciona una de las especialidades que se muestran."
+                    "Respuesta no válida, por favor selecciona una de las especialidades que se muestran. 👆👆"
                 )
             }
             try {
                 const espEscogida = especialidadesDict[ctx.body]
                 if (espEscogida === "Salir") {
-                    return await flowDynamic("Saliendo...")
+                    await flowDynamic('Regresando al Menú... 🏃')
+                    return gotoFlow(require(path.join(__dirname, 'menuFlow')))
                 }
 
                 // Realizar la consulta a la base de datos
@@ -69,11 +70,10 @@ const flowReservar = addKeyword(EVENTS.ACTION)
                 `, [espEscogida])
 
                 if (rows.length === 0) {
-                    await flowDynamic(`No hay médicos registrados para la especialidad: ${espEscogida}.`)
-                    return
+                    return fallBack("`No hay médicos registrados para la especialidad 😥. Por favor selecciona otra especialidad. 👆👆")
                 }
 
-                let respuesta = `Lista de médicos en ${espEscogida}:`
+                let respuesta = `Lista de médicos en ${espEscogida} 👨‍⚕️👩‍⚕️:`
                 rows.forEach((medico, index) => {
                     respuesta += `\n${index + 1}. ${medico.nombre} ${medico.apellido}`
                     diccionarioII[index + 1] = medico.id_medico // Agregar cada médico al diccionario
@@ -88,13 +88,13 @@ const flowReservar = addKeyword(EVENTS.ACTION)
         }
     )
     .addAnswer(
-        "Selecciona un médico para ver sus horarios",
+        "Selecciona un médico para ver sus horarios ⭐",
         { capture: true },
         async (ctx, { fallBack, flowDynamic }) => {
 
             if (!Object.keys(diccionarioII).includes(ctx.body)) {
                 return fallBack(
-                     "Respuesta no válida, por favor selecciona uno de los médicos que se muestran."
+                     "Respuesta no válida, por favor selecciona uno de los médicos que se muestran. 👆👆"
                 )
             }
 
@@ -109,11 +109,10 @@ const flowReservar = addKeyword(EVENTS.ACTION)
                 `, [idEscogido])
 
                 if (horarios.length === 0) {
-                    await flowDynamic(`No hay horarios disponibles para el médico seleccionado.`)
-                    return
+                    return fallBack("`El médico no esta disponible 😥. Por favor selecciona otro médico. 👆👆")
                 }
 
-                let respuestaHorarios = `Horarios disponibles:`
+                let respuestaHorarios = `Horarios disponibles 🕙: `
 
                 // Formateando fecha
                 horarios.forEach((horario, index) => {
@@ -137,13 +136,13 @@ const flowReservar = addKeyword(EVENTS.ACTION)
         }
     )
     .addAnswer(
-        "Selecciona un horario para reservar tu cita",
+        "Selecciona un horario para reservar tu cita ⭐",
         { capture: true },
-        async (ctx, { fallBack, flowDynamic }) => {
+        async (ctx, { fallBack, flowDynamic, gotoFlow }) => {
             
             if (!Object.keys(diccionarioII2).includes(ctx.body)) {
                 return fallBack(
-                     "Respuesta no válida, por favor selecciona uno de los horarios que se muestran."
+                     "Respuesta no válida, por favor selecciona uno de los horarios que se muestran. 👆👆"
                 )
             }
 
@@ -156,11 +155,12 @@ const flowReservar = addKeyword(EVENTS.ACTION)
                 `, [idEscogido])
 
                 if (horarios.length === 0) {
-                    await flowDynamic(`Reserva no disponible.`)
-                    return
+                    return fallBack("Reserva no disponible. ❌. Por favor, seleccione otro horario")
                 }
 
-                await flowDynamic("Cita reservada exitosamente.")
+                await flowDynamic("Cita reservada exitosamente. ✅")
+                await flowDynamic('Regresando al Menú... 🏃')
+                return gotoFlow(require(path.join(__dirname, 'menuFlow')))
                 
             } catch (error) {
                 console.error('Error al consultar la base de datos:', error)

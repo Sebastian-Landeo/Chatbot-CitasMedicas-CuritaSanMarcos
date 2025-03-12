@@ -2,32 +2,67 @@
   key: {
     remoteJid: '51964542293@s.whatsapp.net',
     fromMe: false,
-    id: '3FD5703D4BF4870B0A91',
+    id: '3F22B5041C5C9C2AA215',
     participant: undefined
   },
-  messageTimestamp: 1741797828,
+  messageTimestamp: 1741811202,
   pushName: 'Sebastian (Salcito)',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: 'menu', contextInfo: [ContextInfo] },
+    extendedTextMessage: ExtendedTextMessage { text: 'hola', contextInfo: [ContextInfo] },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'menu',
+  body: 'hola',
   from: '51964542293'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_33dfe7ab-b58a-40df-b1b1-3a24870225ea',
-  keyword: 'key_381e5a9b-dff4-4ba7-987a-ab51374c0907',
-  answer: 'Elige alguna de estas opciones:\r\n' +
-    '\r\n' +
-    'Opcion 1 - Reservar citas\r\n' +
-    'Opcion 2 - Ver citas pendientes\r\n' +
-    'Opcion 3 - Hacer consultas\r\n' +
-    '\r\n' +
-    'Opcion 0 - Salir',
+  ref: 'ans_42699c7d-a8d7-40a9-9df8-e2ccf99b33a3',
+  keyword: 'key_a20108bf-ad8b-4ebd-96e5-1f27d03d5741',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '18a14a1a1a2945eb771119a2d958c0ad'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51964542293@s.whatsapp.net',
+    fromMe: false,
+    id: '3F4A7AF627D391F19DD5',
+    participant: undefined
+  },
+  messageTimestamp: 1741811212,
+  pushName: 'Sebastian (Salcito)',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'sebastian.landeo@unmsm.edu.pe',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'sebastian.landeo@unmsm.edu.pe',
+  from: '51964542293'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2bd201ba-da06-4302-947f-5c7d7783915f',
+  keyword: 'ans_0c5509e4-f470-4906-a7d8-6650e69c7ad3',
+  answer: 'Escriba su código de san marcos 🔢',
   options: {
     media: null,
     buttons: [],
@@ -40,80 +75,39 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'ae25996d84ab9856680714146b2f7588'
+  refSerialize: 'a4a9ab5c6bbd8f87933b0f31419a5e37'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '51964542293@s.whatsapp.net',
     fromMe: false,
-    id: '3FD555098C1D96159E77',
+    id: '3F1311F95B88DB852B63',
     participant: undefined
   },
-  messageTimestamp: 1741797859,
+  messageTimestamp: 1741811216,
   pushName: 'Sebastian (Salcito)',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: '2', contextInfo: [ContextInfo] },
+    extendedTextMessage: ExtendedTextMessage {
+      text: '21200224',
+      contextInfo: [ContextInfo]
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '2',
+  body: '21200224',
   from: '51964542293'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '51964542293@s.whatsapp.net',
     fromMe: false,
-    id: '3F080A2074CF83A67A4C',
+    id: '3F12E53F59385554E30E',
     participant: undefined
   },
-  messageTimestamp: 1741797865,
-  pushName: 'Sebastian (Salcito)',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: 'menu', contextInfo: [ContextInfo] },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'menu',
-  from: '51964542293'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_33dfe7ab-b58a-40df-b1b1-3a24870225ea',
-  keyword: 'key_381e5a9b-dff4-4ba7-987a-ab51374c0907',
-  answer: 'Elige alguna de estas opciones:\r\n' +
-    '\r\n' +
-    'Opcion 1 - Reservar citas\r\n' +
-    'Opcion 2 - Ver citas pendientes\r\n' +
-    'Opcion 3 - Hacer consultas\r\n' +
-    '\r\n' +
-    'Opcion 0 - Salir',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'ae25996d84ab9856680714146b2f7588'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51964542293@s.whatsapp.net',
-    fromMe: false,
-    id: '3FEE8D052B836268B631',
-    participant: undefined
-  },
-  messageTimestamp: 1741797872,
+  messageTimestamp: 1741811219,
   pushName: 'Sebastian (Salcito)',
   broadcast: false,
   message: Message {
@@ -130,15 +124,15 @@
   key: {
     remoteJid: '51964542293@s.whatsapp.net',
     fromMe: false,
-    id: '3FE5B4C8A58DFCD6684C',
+    id: '3F7692B6FB251C8AE0C0',
     participant: undefined
   },
-  messageTimestamp: 1741797894,
+  messageTimestamp: 1741811239,
   pushName: 'Sebastian (Salcito)',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'tengo dolor de cabeza, siento frío y estornudo mucho',
+      text: 'que medicamento me recomiendas para la fiebre',
       contextInfo: [ContextInfo]
     },
     messageContextInfo: MessageContextInfo {
@@ -146,13 +140,13 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: 'tengo dolor de cabeza, siento frío y estornudo mucho',
+  body: 'que medicamento me recomiendas para la fiebre',
   from: '51964542293'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_d6fb15c5-348e-427f-bb01-5b47bab5bb39',
-  keyword: 'ans_51c38056-5dac-4b9a-80ac-8c732a166ebc',
-  answer: 'Quieres continuar con otra consulta?`\n1. Sí\n2. No',
+  ref: 'ans_5f6cff58-2d50-42a9-8510-2a3eef84b98f',
+  keyword: 'ans_39fe3187-ddad-41c8-b92c-51c2ead0ee05',
+  answer: 'Quieres continuar con otra consulta? 🤓\n1. Sí\n2. No',
   options: {
     media: null,
     buttons: [],
@@ -165,77 +159,16 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '2635713fdd48993486047ec789384272'
+  refSerialize: '98a19e59c91493a8f741ba0db55eb413'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '51964542293@s.whatsapp.net',
     fromMe: false,
-    id: '3F7A65F6DCF6E08A5D96',
+    id: '3F6F0EDC11089445C68C',
     participant: undefined
   },
-  messageTimestamp: 1741797901,
-  pushName: 'Sebastian (Salcito)',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: '1', contextInfo: [ContextInfo] },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '1',
-  from: '51964542293'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51964542293@s.whatsapp.net',
-    fromMe: false,
-    id: '3F6BEB1F77FA2FCDFAE5',
-    participant: undefined
-  },
-  messageTimestamp: 1741797912,
-  pushName: 'Sebastian (Salcito)',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'donde queda la clínica san marcos',
-      contextInfo: [ContextInfo]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'donde queda la clínica san marcos',
-  from: '51964542293'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_d6fb15c5-348e-427f-bb01-5b47bab5bb39',
-  keyword: 'ans_51c38056-5dac-4b9a-80ac-8c732a166ebc',
-  answer: 'Quieres continuar con otra consulta?`\n1. Sí\n2. No',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '2635713fdd48993486047ec789384272'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51964542293@s.whatsapp.net',
-    fromMe: false,
-    id: '3F2EEFBC50E25D78749E',
-    participant: undefined
-  },
-  messageTimestamp: 1741797922,
+  messageTimestamp: 1741811255,
   pushName: 'Sebastian (Salcito)',
   broadcast: false,
   message: Message {
@@ -247,109 +180,4 @@
   },
   body: '2',
   from: '51964542293'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51964542293@s.whatsapp.net',
-    fromMe: false,
-    id: '3F66A3A1F29BAF605317',
-    participant: undefined
-  },
-  messageTimestamp: 1741798131,
-  pushName: 'Sebastian (Salcito)',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: 'menu', contextInfo: [ContextInfo] },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'menu',
-  from: '51964542293'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_33dfe7ab-b58a-40df-b1b1-3a24870225ea',
-  keyword: 'key_381e5a9b-dff4-4ba7-987a-ab51374c0907',
-  answer: 'Elige alguna de estas opciones:\r\n' +
-    '\r\n' +
-    'Opcion 1 - Reservar citas\r\n' +
-    'Opcion 2 - Ver citas pendientes\r\n' +
-    'Opcion 3 - Hacer consultas\r\n' +
-    '\r\n' +
-    'Opcion 0 - Salir',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'ae25996d84ab9856680714146b2f7588'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51964542293@s.whatsapp.net',
-    fromMe: false,
-    id: '3FD65279C89219E2C740',
-    participant: undefined
-  },
-  messageTimestamp: 1741798134,
-  pushName: 'Sebastian (Salcito)',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: '3', contextInfo: [ContextInfo] },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '3',
-  from: '51964542293'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '51964542293@s.whatsapp.net',
-    fromMe: false,
-    id: '3F91592EB4EF18B61D1E',
-    participant: undefined
-  },
-  messageTimestamp: 1741798156,
-  pushName: 'Sebastian (Salcito)',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'qué es mejor PlayStation o xbox',
-      contextInfo: [ContextInfo]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'qué es mejor PlayStation o xbox',
-  from: '51964542293'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_d6fb15c5-348e-427f-bb01-5b47bab5bb39',
-  keyword: 'ans_51c38056-5dac-4b9a-80ac-8c732a166ebc',
-  answer: 'Quieres continuar con otra consulta?`\n1. Sí\n2. No',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '2635713fdd48993486047ec789384272'
 }

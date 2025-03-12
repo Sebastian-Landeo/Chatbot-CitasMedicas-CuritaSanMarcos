@@ -6,11 +6,11 @@ const util = require('util')
 const query = util.promisify(connection.query).bind(connection)
 
 const flowSaludar = addKeyword(EVENTS.ACTION)
-        .addAnswer('🙌 Hola bienvenido, soy el Curita Bot')
-        .addAnswer('Y estoy dispuesto a ayudarte con tus citas en la Clínica San Marcos', {
+        .addAnswer('🙌 Hola bienvenido, soy el Curita Bot 💊🤖')
+        .addAnswer('🙋‍♀️ Y estoy dispuesto a ayudarte con tus citas en la Clínica San Marcos 🙋‍♂️', {
             media: path.join(__dirname, '..', 'Imagenes', 'clinica.png')
         })
-        .addAnswer('Escriba su correo de paciente para iniciar', { capture: true }, //No olvdiar el capture
+        .addAnswer('Escriba su correo de paciente para iniciar ✉️', { capture: true }, //No olvdiar el capture
             async (ctx, { flowDynamic, fallBack }) => {
                 try {
                     const correo = ctx.body
@@ -23,8 +23,7 @@ const flowSaludar = addKeyword(EVENTS.ACTION)
                     `, [correo])
     
                     if (rows.length === 0) {
-                        await flowDynamic(`El correo no es válido: ${correo}.`)
-                        return fallBack('Por favor, ingrese un correo válido.')
+                        return fallBack('El correo no es válido 😥\nPor favor, ingrese un correo válido 🩺')
                     }
 
                 } catch (error) {
@@ -33,8 +32,8 @@ const flowSaludar = addKeyword(EVENTS.ACTION)
                 }
             }
         )
-        .addAnswer('Escriba su código de san marcos', { capture: true }, //No olvdiar el capture
-            async (ctx, { flowDynamic, fallBack}) => {
+        .addAnswer('Escriba su código de san marcos 🔢', { capture: true }, //No olvdiar el capture
+            async (ctx, { flowDynamic, fallBack, gotoFlow}) => {
                 try {
                     const codigo = ctx.body
 
@@ -47,17 +46,13 @@ const flowSaludar = addKeyword(EVENTS.ACTION)
                     `, [codigo])
     
                     if (rows.length === 0) {
-                        await flowDynamic(`El código no es válido: ${codigo}.`)
-                        return fallBack('Por favor, ingrese un código válido.')
+                        return fallBack('El código no es válido 😥\nPor favor, ingrese un código válido. 🩺')
                     }
 
-                    const telefono = ctx.from
-                    console.log('Contexto', ctx);
-                    console.log('Telefono', ctx.from);
-
-                    await flowDynamic('Bienvenido ' + rows[0].primer_nombre + ', ¿En qué puedo ayudarte?')
+                    await flowDynamic('Bienvenido ' + rows[0].primer_nombre + ', ¿En qué puedo ayudarte? 🤗')
                     // Enviar mensaje para ver las opciones disponibles
-                    return await flowDynamic(`Para ver las opciones disponibles, escribe *Menu* 👩‍⚕️👨‍⚕️`)
+                    return gotoFlow(require(path.join(__dirname, 'menuFlow')))
+                    //return await flowDynamic(`Para ver las opciones disponibles, escribe *Menu* 👩‍⚕️👨‍⚕️`)
 
                 } catch (error) {
                     console.error('Error al consultar la base de datos:', error)

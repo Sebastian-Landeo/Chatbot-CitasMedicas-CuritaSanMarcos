@@ -1,7 +1,5 @@
-Elige alguna de estas opciones:
-
-Opcion 1 - Reservar citas
-Opcion 2 - Ver citas pendientes
-Opcion 3 - Hacer consultas
-
-Opcion 0 - Salir
+Elige alguna de estas opciones 📝:
+Opcion 1 - Reservar citas 📖
+Opcion 2 - Ver citas pendientes 👀
+Opcion 3 - Hacer consultas ❔
+Escriba el número

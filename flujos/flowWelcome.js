@@ -13,7 +13,8 @@ const flowWelcome = addKeyword(EVENTS.WELCOME)
         }
 
         if (userStates[userId].hasWelcomed) {
-            return await flowDynamic('Para ver las opciones disponibles, escribe *Menu*')
+            await flowDynamic('Regresando al Menú... 🏃')
+            return gotoFlow(require(path.join(__dirname, 'menuFlow')))
         }
         
         userStates[userId].hasWelcomed = true

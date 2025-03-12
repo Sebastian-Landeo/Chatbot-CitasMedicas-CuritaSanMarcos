@@ -9,21 +9,22 @@ const promptConsultas = fs.readFileSync(consultasPath, 'utf-8')
 
 
 const flowConsultas = addKeyword(EVENTS.ACTION)
-    .addAnswer('Realiza tu consulta', { capture: true }, async (ctx, ctxFn) => {
+    .addAnswer('Realiza tu consulta 🤖', { capture: true }, async (ctx, ctxFn) => {
         const prompt = promptConsultas
         const consulta = ctx.body
         const answer = await chat(prompt, consulta)
         await ctxFn.flowDynamic(answer)
     })
     .addAnswer(
-      "Quieres continuar con otra consulta?`\n1. Sí\n2. No",
+      "Quieres continuar con otra consulta? 🤓\n1. Sí\n2. No",
       { capture: true },
       async (ctx, { fallBack, flowDynamic, gotoFlow}) => {
         const respuesta = ctx.body
         if (respuesta === '1' || respuesta.toLowerCase() === 'sí' || respuesta.toLowerCase() === 'si') {
             return gotoFlow(flowConsultas)
         } else if (respuesta === '2' || respuesta.toLowerCase() === 'no') {
-            await flowDynamic('Escriba *Menu* para escoger otra opción.')
+            await flowDynamic('Regresando al Menú... 🏃')
+            return gotoFlow(require(path.join(__dirname, 'menuFlow')))
         } else {
             return fallBack('Respuesta no válida, por favor selecciona 1 para Sí o 2 para No.')
         }
