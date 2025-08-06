@@ -8,12 +8,11 @@ const MySQLAdapter = require('@bot-whatsapp/database/mysql')
 /**
  * Declaramos las conexiones de MySQL
  */
-const MYSQL_DB_HOST = 'localhost'
-const MYSQL_DB_USER = 'root'
-const MYSQL_DB_PASSWORD = '4819508Mysql.'
-const MYSQL_DB_NAME = 'curitasanmarcos'
-const MYSQL_DB_PORT = '3306'
-
+const MYSQL_DB_HOST = process.env.MYSQL_DB_HOST
+const MYSQL_DB_USER = process.env.MYSQL_DB_USER
+const MYSQL_DB_PASSWORD = process.env.MYSQL_DB_PASSWORD
+const MYSQL_DB_NAME = process.env.MYSQL_DB_NAME
+const MYSQL_DB_PORT = process.env.MYSQL_DB_PORT
 
 const flowSaludar = require('./flujos/flowSaludar')
 const flowWelcome = require('./flujos/flowWelcome')
