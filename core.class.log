@@ -1,26 +1,48 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '51964542293@s.whatsapp.net',
+    remoteJid: '51981109013@s.whatsapp.net',
     fromMe: false,
-    id: '3F22B5041C5C9C2AA215',
+    id: '10D0FC2028698C14DFD348B22D865C02',
     participant: undefined
   },
-  messageTimestamp: 1741811202,
-  pushName: 'Sebastian (Salcito)',
+  messageTimestamp: 1752185719,
+  pushName: 'Fabo',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: 'hola', contextInfo: [ContextInfo] },
+    conversation: 'Hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
     }
   },
-  body: 'hola',
-  from: '51964542293'
+  body: 'Hola',
+  from: '51981109013'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51981109013@s.whatsapp.net',
+    fromMe: false,
+    id: '071F88EFF40ADCFED8E5E5D37476D0DE',
+    participant: undefined
+  },
+  messageTimestamp: 1752185727,
+  pushName: 'Fabo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola?',
+  from: '51981109013'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_42699c7d-a8d7-40a9-9df8-e2ccf99b33a3',
-  keyword: 'key_a20108bf-ad8b-4ebd-96e5-1f27d03d5741',
+  ref: 'ans_0403ab3f-cd16-4e07-a035-2bd6aadeb0e9',
+  keyword: 'key_9a1cd04f-a611-44a9-bb8b-cddb483049ad',
   answer: '__call_action__',
   options: {
     media: null,
@@ -34,34 +56,227 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '18a14a1a1a2945eb771119a2d958c0ad'
+  refSerialize: '97f44a85f880c5d1efcebb92176f4440'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51964542293@s.whatsapp.net',
+    remoteJid: '51932285983@s.whatsapp.net',
     fromMe: false,
-    id: '3F4A7AF627D391F19DD5',
+    id: '03460D48E262D3444D2401F69B7BB736',
     participant: undefined
   },
-  messageTimestamp: 1741811212,
-  pushName: 'Sebastian (Salcito)',
+  messageTimestamp: 1752185924,
+  pushName: 'Brisa',
+  broadcast: false,
+  message: Message {
+    conversation: 'Ola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Ola',
+  from: '51932285983'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0403ab3f-cd16-4e07-a035-2bd6aadeb0e9',
+  keyword: 'key_9a1cd04f-a611-44a9-bb8b-cddb483049ad',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '97f44a85f880c5d1efcebb92176f4440'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51941447652@s.whatsapp.net',
+    fromMe: false,
+    id: '52A0555ADB3B230BC3D143672D6D7D00',
+    participant: undefined
+  },
+  messageTimestamp: 1752187884,
+  pushName: 'Wilder - Veox',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'sebastian.landeo@unmsm.edu.pe',
-      contextInfo: [ContextInfo]
+      text: 'Hola',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
     },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
     }
   },
-  body: 'sebastian.landeo@unmsm.edu.pe',
-  from: '51964542293'
+  verifiedBizName: 'Wilder - Veox',
+  body: 'Hola',
+  from: '51941447652'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2bd201ba-da06-4302-947f-5c7d7783915f',
-  keyword: 'ans_0c5509e4-f470-4906-a7d8-6650e69c7ad3',
+  ref: 'ans_0403ab3f-cd16-4e07-a035-2bd6aadeb0e9',
+  keyword: 'key_9a1cd04f-a611-44a9-bb8b-cddb483049ad',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '97f44a85f880c5d1efcebb92176f4440'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51941447652@s.whatsapp.net',
+    fromMe: false,
+    id: 'BB1F0DF68588E0560AA5E696F79B9277',
+    participant: undefined
+  },
+  messageTimestamp: 1752187898,
+  pushName: 'Wilder - Veox',
+  broadcast: false,
+  message: Message {
+    conversation: 'No quiero',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  verifiedBizName: 'Wilder - Veox',
+  body: 'No quiero',
+  from: '51941447652'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51941447652@s.whatsapp.net',
+    fromMe: false,
+    id: '65135414A2EAB013782CB5FA3FCD6D2B',
+    participant: undefined
+  },
+  messageTimestamp: 1752187908,
+  pushName: 'Wilder - Veox',
+  broadcast: false,
+  message: Message {
+    conversation: 'wninachoquehuayta@gmail.com',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  verifiedBizName: 'Wilder - Veox',
+  body: 'wninachoquehuayta@gmail.com',
+  from: '51941447652'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51941447652@s.whatsapp.net',
+    fromMe: false,
+    id: '5388CEE43A555FDEF9DEE7B898D55E6A',
+    participant: undefined
+  },
+  messageTimestamp: 1752187914,
+  pushName: 'Wilder - Veox',
+  broadcast: false,
+  message: Message {
+    conversation: 'wnina@veox.tech',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  verifiedBizName: 'Wilder - Veox',
+  body: 'wnina@veox.tech',
+  from: '51941447652'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51941447652@s.whatsapp.net',
+    fromMe: false,
+    id: '6451D8D987D060B28A93023B64FACDF9',
+    participant: undefined
+  },
+  messageTimestamp: 1752187939,
+  pushName: 'Wilder - Veox',
+  broadcast: false,
+  message: Message {
+    conversation: 'wnina@unmsm.edu.pe',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  verifiedBizName: 'Wilder - Veox',
+  body: 'wnina@unmsm.edu.pe',
+  from: '51941447652'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51941447652@s.whatsapp.net',
+    fromMe: false,
+    id: '350DE350CD8E594D4C8575E6CD6DE157',
+    participant: undefined
+  },
+  messageTimestamp: 1752187979,
+  pushName: 'Wilder - Veox',
+  broadcast: false,
+  message: Message {
+    conversation: 'docente021.fisi@unmsm.edu.pe',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  verifiedBizName: 'Wilder - Veox',
+  body: 'docente021.fisi@unmsm.edu.pe',
+  from: '51941447652'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51941447652@s.whatsapp.net',
+    fromMe: false,
+    id: '0F721EF67D8F0E30A442207F650C8F11',
+    participant: undefined
+  },
+  messageTimestamp: 1752188006,
+  pushName: 'Wilder - Veox',
+  broadcast: false,
+  message: Message {
+    conversation: 'sebastian.landeo@unmsm.edu.pe',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  verifiedBizName: 'Wilder - Veox',
+  body: 'sebastian.landeo@unmsm.edu.pe',
+  from: '51941447652'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f7cfd76f-7435-46d8-aa0f-a53437d9b470',
+  keyword: 'ans_a6a13b24-dc47-47ef-842c-5534bf1d0458',
   answer: 'Escriba su código de san marcos 🔢',
   options: {
     media: null,
@@ -75,78 +290,100 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'a4a9ab5c6bbd8f87933b0f31419a5e37'
+  refSerialize: 'c65b312b110ddf753ec15eb4b52537f8'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51964542293@s.whatsapp.net',
+    remoteJid: '51941447652@s.whatsapp.net',
     fromMe: false,
-    id: '3F1311F95B88DB852B63',
+    id: '9F85CB7A22AF37AAE3CD54DF4A596803',
     participant: undefined
   },
-  messageTimestamp: 1741811216,
-  pushName: 'Sebastian (Salcito)',
+  messageTimestamp: 1752188017,
+  pushName: 'Wilder - Veox',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '21200224',
-      contextInfo: [ContextInfo]
-    },
+    conversation: '21200224',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
     }
   },
+  verifiedBizName: 'Wilder - Veox',
   body: '21200224',
-  from: '51964542293'
+  from: '51941447652'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51964542293@s.whatsapp.net',
+    remoteJid: '51941447652@s.whatsapp.net',
     fromMe: false,
-    id: '3F12E53F59385554E30E',
+    id: '209E1BCB7F5E8B9C0F89FB86E0DFC7A8',
     participant: undefined
   },
-  messageTimestamp: 1741811219,
-  pushName: 'Sebastian (Salcito)',
+  messageTimestamp: 1752188095,
+  pushName: 'Wilder - Veox',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: '3', contextInfo: [ContextInfo] },
+    conversation: 'Opción 1',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
     }
   },
-  body: '3',
-  from: '51964542293'
+  verifiedBizName: 'Wilder - Veox',
+  body: 'Opción 1',
+  from: '51941447652'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51964542293@s.whatsapp.net',
+    remoteJid: '51941447652@s.whatsapp.net',
     fromMe: false,
-    id: '3F7692B6FB251C8AE0C0',
+    id: 'C5679F4B6144223518F7F7C7436DD6D1',
     participant: undefined
   },
-  messageTimestamp: 1741811239,
-  pushName: 'Sebastian (Salcito)',
+  messageTimestamp: 1752188100,
+  pushName: 'Wilder - Veox',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'que medicamento me recomiendas para la fiebre',
-      contextInfo: [ContextInfo]
-    },
+    conversation: '1',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
     }
   },
-  body: 'que medicamento me recomiendas para la fiebre',
-  from: '51964542293'
+  verifiedBizName: 'Wilder - Veox',
+  body: '1',
+  from: '51941447652'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51941447652@s.whatsapp.net',
+    fromMe: false,
+    id: 'F41D23C76825D6C68CB50D76E44B2CC3',
+    participant: undefined
+  },
+  messageTimestamp: 1752188105,
+  pushName: 'Wilder - Veox',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  verifiedBizName: 'Wilder - Veox',
+  body: '1',
+  from: '51941447652'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5f6cff58-2d50-42a9-8510-2a3eef84b98f',
-  keyword: 'ans_39fe3187-ddad-41c8-b92c-51c2ead0ee05',
-  answer: 'Quieres continuar con otra consulta? 🤓\n1. Sí\n2. No',
+  ref: 'ans_f57cd57e-e8ad-4484-9d6a-c87ae024f03a',
+  keyword: 'ans_cd517376-65bc-4c2b-83e6-980c33e38e7b',
+  answer: 'Selecciona un médico para ver sus horarios ⭐',
   options: {
     media: null,
     buttons: [],
@@ -159,25 +396,89 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '98a19e59c91493a8f741ba0db55eb413'
+  refSerialize: '62ef4e8986be60b06e47b2a83fe03b3b'
 }
 [handleMsg]:  {
   key: {
-    remoteJid: '51964542293@s.whatsapp.net',
+    remoteJid: '51941447652@s.whatsapp.net',
     fromMe: false,
-    id: '3F6F0EDC11089445C68C',
+    id: 'A00AF0A903E29E3D2B7D4E68E1E505B1',
     participant: undefined
   },
-  messageTimestamp: 1741811255,
-  pushName: 'Sebastian (Salcito)',
+  messageTimestamp: 1752188109,
+  pushName: 'Wilder - Veox',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: '2', contextInfo: [ContextInfo] },
+    conversation: '1',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
     }
   },
-  body: '2',
-  from: '51964542293'
+  verifiedBizName: 'Wilder - Veox',
+  body: '1',
+  from: '51941447652'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0f291b12-e16e-474f-9560-844ad95cb692',
+  keyword: 'ans_f57cd57e-e8ad-4484-9d6a-c87ae024f03a',
+  answer: 'Selecciona un horario para reservar tu cita ⭐',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'f9155cc88a0b913d8fb61d240fe17d9b'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51941447652@s.whatsapp.net',
+    fromMe: false,
+    id: 'A5BADB1128B383796D0643245E9B01BD',
+    participant: undefined
+  },
+  messageTimestamp: 1752188112,
+  pushName: 'Wilder - Veox',
+  broadcast: false,
+  message: Message {
+    conversation: '12',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  verifiedBizName: 'Wilder - Veox',
+  body: '12',
+  from: '51941447652'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51941447652@s.whatsapp.net',
+    fromMe: false,
+    id: '7A3605C913A795E025D74491F2B63B44',
+    participant: undefined
+  },
+  messageTimestamp: 1752188117,
+  pushName: 'Wilder - Veox',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  verifiedBizName: 'Wilder - Veox',
+  body: '1',
+  from: '51941447652'
 }
